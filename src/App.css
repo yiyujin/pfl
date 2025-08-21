@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size : 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px; /* slightly smaller on tablets/mobiles */
+  }
+}
+
+.bg-video-wrap {
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Full screen height */
+  overflow: hidden;
+
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.bg-video {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  width: auto;
+  height: auto;
+
+  transform: translate(-50%, -50%);
+
+  object-fit: cover;      /* Crop and cover the screen */
+  pointer-events: none;   /* Allow clicks to pass through */
+  z-index: -1;            /* Push behind content */
+
+  /* filter : blur(4px); */
+}
+
+.content {
+  width : 100vw;
+  height: 100vh;
+
+  position: relative;
+
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  position : absolute;
+
+  width : 95%;
+  bottom : 8px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  
+  font-family: "IBM Plex Mono";
+  text-transform: uppercase;
+  /* font-size : 12px; */
+  font-size : 0.75rem;
+  font-weight: 500;
+
+  color : white;
+  opacity : 0.75;
+}
+
+.footerImg {
+  /* width : 24px; */
+  height : 32px;
+}
+
+.number {
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  /* font-size : 72px; */
+
+  font-size : 4rem;
+}
+
+.stats {
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+  gap : 6px;
+
+  /* height : 5rem; */
+  
+  box-sizing: content-box;
+  line-height: 300%;
+}
+
+.stats-container {
+  position : absolute;
+
+  /* background : red; */
+
+  width : 60%;
+  height : auto;
+
+  bottom : 10%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 2rem;
+
+  flex-wrap: wrap;
+}
+
+.title-container {
+  position: absolute;
+  /* width: 100%; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width : 240px;
+  height : 40px;
+  
+  background : rgba(255, 255, 255, 0.4);
+  color : black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+
+  text-align: center;
+
+  margin : 16px;
+}
+
+/* INPUT FIELD */
+.title {
+  width : 90%;
+
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  /* font-size : 100px; */
+  font-size: 6rem;  /* scales with root font size */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  background : transparent;
+  border : transparent;
+  outline : none;
+
+  /* opacity : 1; */
+
+  color : white;
+  caret-color: white;
+}
+
+/* input:focus {
+  border : 1px solid blue;
+  border-color: rgb(58, 58, 83);
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+} */
+
+.page {
+  width : 100vw;
+  height : 100%;
+
+  background: #1b1b1b;
+
+  /* color : lime; */
+  color : white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Barlow Condensed";
+  font-weight: 800;
+  font-size : 6rem;
+  text-transform: uppercase;
+}
+
+
+h3 {
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-size : 24px;
+  text-transform: uppercase;
+}
+
+.feedVideo {
+  width : 100%;
+  height : auto;
+}
+
+.stats-number {
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-size : 56px;
+  text-transform: uppercase;
+
+  line-height: 100%;
+}
+
+.percentage {
+  font-weight: 800;
+  font-size : 18px;
+  text-transform: uppercase;
+
+  line-height: 100%;
+}
+
+.meta {
+  font-family: "IBM Plex Mono";
+  text-transform: uppercase;
+  font-size : 12px;
+}
+
+/* HTML ELEMENTS */
+hr {
+  opacity : 0.16;
+}
