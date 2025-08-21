@@ -1,10 +1,10 @@
-import { useState } from 'react'
 import { Routes, Route, useLocation } from "react-router"
 import './App.css'
 
 // PAGES
-import Home from './Home'
-import Player from './Player'
+import Home from './pages/Home'
+import Player from './pages/Player'
+import YouTubeClipsApp from './pages/YouTubeClipsApp';
 
 export default function App() {
   return (
@@ -12,6 +12,7 @@ export default function App() {
       <Routes> 
         <Route path = "/" element = { <Home/>}/>
         <Route path = "/player" element = { <Player/>}/>
+        <Route path = "/test" element = { <YouTubeClipsApp/>}/>
       </Routes>
     </div>
   )

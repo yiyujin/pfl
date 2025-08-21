@@ -3,6 +3,10 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
+import YoutubePlayer from '../components/YoutubePlayer';
+
+import { ArrowForward, EventAvailable, Stadium, Scoreboard } from '@mui/icons-material';
+
 export default function Player(){
     const statsContainerRef = useRef(null);
     const spanRefs = useRef([]);
@@ -69,7 +73,7 @@ export default function Player(){
         <div className = "page">
             <div style = { { } }>
                 <h1>22 · James Smith</h1>
-                <p>Team : Clark Cougars</p>
+                <p className = "meta">Team : Clark Cougars</p>
             </div>
 
             <br/>
@@ -91,21 +95,21 @@ export default function Player(){
                 {/* NUMBER STATS */}
                 <div style = { {  display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center", gap : "8px" } }>
                     <div style = { { border : "1px solid transparent", width : "160px", height : "180px", display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center" } }>
-                        <h3 className = "stats-number" style = { { fontSize : "100px" } }>7</h3>
+                        <h3 className = "stats-number" style = { { fontSize : "100px" } }>8</h3>
                     </div>
                     <p className = "meta">Games Played</p>
                 </div>
 
                 <div style = { {  display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center", gap : "8px" } }>
                     <div style = { { border : "1px solid transparent", width : "160px", height : "180px", display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center" } }>
-                        <h3 className = "stats-number" style = { { fontSize : "100px" } }>222</h3>
+                        <h3 className = "stats-number" style = { { fontSize : "100px" } }>243</h3>
                     </div>
                     <p className = "meta">Min Played</p>
                 </div>
 
                                 <div style = { {  display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center", gap : "8px" } }>
                     <div style = { { border : "1px solid transparent", width : "160px", height : "180px", display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center" } }>
-                        <h3 className = "stats-number" style = { { fontSize : "100px" } }>81</h3>
+                        <h3 className = "stats-number" style = { { fontSize : "100px" } }>92</h3>
                     </div>
                     <p className = "meta">Pts</p>
                 </div>
@@ -115,8 +119,8 @@ export default function Player(){
                 <div style = { { display : "flex", flexDirection : "column", alignItems : "center", width : "100%", gap : "8px" } }>
                     <div style={{ display: "flex", flexDirection: "row", width: "320px", height: "180px", background: "", border: "1px solid white" }}>
                         <div style={{ background: "", display: "flex", flexDirection: "column", flex: 1, borderRight: "1px solid white" }}>
-                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", borderBottom: "1px solid white" }}>36</h3>
-                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>79</h3>
+                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", borderBottom: "1px solid white" }}>41</h3>
+                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>90</h3>
                         </div>
                         <div style={{ position : "relative", flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>
                             <div style = { { display : "flex", flexDirection : "row", alignItems : "flex-end"} }>
@@ -137,12 +141,12 @@ export default function Player(){
                 <div style = { { display : "flex", flexDirection : "column", alignItems : "center", width : "100%", gap : "8px" } }>
                     <div style={{ display: "flex", flexDirection: "row", width: "320px", height: "180px", background: "", border: "1px solid white" }}>
                         <div style={{ background: "", display: "flex", flexDirection: "column", flex: 1, borderRight: "1px solid white" }}>
-                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", borderBottom: "1px solid white" }}>4</h3>
-                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>18</h3>
+                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", borderBottom: "1px solid white" }}>5</h3>
+                            <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>20</h3>
                         </div>
                         <div style={{ position : "relative", flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>
                             <div style = { { display : "flex", flexDirection : "row", alignItems : "flex-end"} }>
-                                <h3 className = "stats-number" style = { { fontSize : "100px" } }>22</h3>
+                                <h3 className = "stats-number" style = { { fontSize : "100px" } }>25</h3>
                                 <p className = "percentage">%</p>
                             </div>
                             <span 
@@ -181,41 +185,33 @@ export default function Player(){
 
             <br/><br/>
             <hr/>
-            <br/><br/><br/>
+            <p className = "meta">HIGHGLIGHTS</p>
+            <br/><br/>
 
-            
-            <div className = "stats">
-                <p className = "number" style = { { fontSize : "100px", fontWeight : "600" }}>13</p>
-                <h3>Highlights</h3>
+            {/* GAME INFO */}
+            <h1>Game</h1>
+            <div style={{ display: "flex", flexDirection: "row", gap: "16px", alignItems : "center" }}>
+                <p>CC vs CGB</p>
+                <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
+                    <Scoreboard style={{ fontSize: "14px", color: "white" }} />
+                    <p className="meta">62 : 27</p>
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
+                    <EventAvailable style={{ fontSize: "14px", color: "white" }} />
+                    <p className="meta">Aug 6, 2025</p>
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
+                    <Stadium style={{ fontSize: "14px", color: "white" }} />
+                    <p className = "meta">Healy School</p>
+                </div>
             </div>
-
-          <select style = { { width : "160px"} }>
-            <option>game and time</option>
-            <option>type</option>
-          </select>
-
-            <br/>
-
             
             {/* VIDEOS */}
 
-
-            <div style = { { marginBottom : "40px" } }>
-                <p className = "meta">2pt M / CC vs CGB (Aug 3, 2025)</p>
-                <video controls className = "feedVideo">
-                    <source src = "/james1.mov"/>
-                </video>
-            </div>
-
-            <div style = { { marginBottom : "40px" } }>
-                <p className = "meta">2pt M / CC vs CGB (Aug 3, 2025)</p>
-                <video controls className = "feedVideo">
-                    <source src = "/james2.mov"/>
-                </video>
-            </div>
-
-
-
+            {/* pass game in parameter */}
+            <YoutubePlayer/>
 
         </div>
     )

@@ -246,3 +246,31 @@ h3 {
 hr {
   opacity : 0.16;
 }
+
+select {
+  background : rgba(255, 255, 255, 0.16);
+  color : white;
+
+  font-family: "IBM Plex Mono";
+  text-transform: uppercase;
+  font-size : 12px;
+
+  padding : 0px 8px;
+}
+
+button {
+
+}
+
+.control-buttons>* {
+  flex : 1;
+
+  border-radius : 2px;
+  border : 1px solid #1b1b1b;
+}
+
+.button-highlight{
+  /* width : 120px !important; */
+
+  border-radius : 2px;
+}
