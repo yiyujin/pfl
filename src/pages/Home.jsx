@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import RandomText from "../components/RandomText";
 
 export default function Home(){
     return(
 <div className = "bg-video-wrap">
-
       <video autoPlay muted loop className = "bg-video">
         <source src="/test.mov"/>
       </video>
@@ -16,24 +16,27 @@ export default function Home(){
         </div>
 
         <div className = "stats-container">
+
           <div className = "stats">
-            <p className = "number">9</p>
+            <RandomText txt = "9" fontSize = "56"/>
             <h3>Teams</h3>
           </div>
 
           <div className = "stats">
-            <p className = "number">53</p>
+            {/* <p className = "number">53</p> */}
+            <RandomText txt = "53" fontSize = "56"/>
             <h3>Players</h3>
           </div>
 
           <div className = "stats">
-            <p className = "number">24</p>
+            {/* <p className = "number">24</p> */}
+            <RandomText txt = "24" fontSize = "56"/>
             <h3>Games</h3>
           </div>
 
           <div className = "stats">
-            <p className = "number">2,016</p>
-            <h3>Baskets</h3>
+            <RandomText txt = "2347" fontSize = "56"/>
+            <h3>Pts</h3>
           </div>
         </div>
 

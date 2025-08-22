@@ -44,7 +44,7 @@ html, body {
   pointer-events: none;   /* Allow clicks to pass through */
   z-index: -1;            /* Push behind content */
 
-  /* filter : blur(4px); */
+  filter : blur(4px);
 }
 
 .content {
@@ -108,7 +108,7 @@ html, body {
   /* height : 5rem; */
   
   box-sizing: content-box;
-  line-height: 300%;
+  line-height: 50%;
 }
 
 .stats-container {
@@ -116,7 +116,7 @@ html, body {
 
   /* background : red; */
 
-  width : 60%;
+  width : 75%;
   height : auto;
 
   bottom : 10%;
