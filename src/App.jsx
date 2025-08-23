@@ -11,7 +11,7 @@ export default function App() {
     <div>
       <Routes> 
         <Route path = "/" element = { <Home/>}/>
-        <Route path = "/player" element = { <Player/>}/>
+        <Route path="/player/:id" element={<Player />} />
         <Route path = "/test" element = { <YouTubeClipsApp/>}/>
       </Routes>
     </div>

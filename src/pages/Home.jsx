@@ -29,6 +29,15 @@ export default function Home() {
     (name) => name.toLowerCase() === inputValue.toLowerCase()
   );
 
+  // Find the matched player object (only needed for the Link)
+  const matchedPlayer = filteredPlayers.find(
+    (p) =>
+      p.properties.Name.title[0].plain_text.toLowerCase() ===
+      inputValue.toLowerCase()
+  );
+
+  const playerId = matchedPlayer ? matchedPlayer.id : null;
+
   return (
     <div className="bg-video-wrap">
       <video autoPlay muted loop className="bg-video">
@@ -45,9 +54,16 @@ export default function Home() {
             onChange={(e) => setInputValue(e.target.value)}
           />
           <p>Enter your name to view your highlights</p>
+
           <Link
-            to="/player"
+            to={playerId ? `/player/${playerId}` : "#"}
             className={`btn ${isMatch ? "btn-red" : "btn-default"}`}
+            onClick={(e) => {
+              if (!playerId) {
+                e.preventDefault(); // prevent navigation if no match
+                alert("Player not found!");
+              }
+            }}
           >
             View Highlights
           </Link>

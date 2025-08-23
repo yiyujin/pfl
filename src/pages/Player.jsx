@@ -1,3 +1,5 @@
+import { Link, useParams } from "react-router-dom";
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -8,6 +10,8 @@ import YoutubePlayer from '../components/YoutubePlayer';
 import { ArrowForward, EventAvailable, Stadium, Scoreboard } from '@mui/icons-material';
 
 export default function Player(){
+    const { id } = useParams(); // player_id
+
     const statsContainerRef = useRef(null);
     const spanRefs = useRef([]);
 
