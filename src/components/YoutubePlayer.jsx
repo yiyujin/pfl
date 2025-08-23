@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { data } from '../mockdata.js';
 import { ArrowBack, ArrowForward, PlayArrow, Pause, EventAvailable, Stadium, Scoreboard } from '@mui/icons-material';
-import { dataGames } from "../data/dataGames.js";
+import { dataHighlights } from '../data/dataHighlights.js';
 
 const typeOrder = [
   "3pt M",
@@ -146,7 +146,7 @@ const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
 };
 
 export default function YoutubePlayer({ playerId, videoId, gameId }) {
-  console.log("games", gameId)
+  // console.log("received", playerId, videoId, gameId);
   
   const [player, setPlayer] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -160,7 +160,7 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
   const clipDuration = 8;
 
   // DATA
-  const initialHighlightsData = data.filter((item) => item.player_id === playerId).sort((a, b) => {
+  const initialHighlightsData = dataHighlights.results.filter((item) => item.properties.player_id.rich_text[0].plain_text === playerId && item.properties.game_id.rich_text[0].plain_text === gameId ).sort((a, b) => {
     const indexA = typeOrder.indexOf(a.type);
     const indexB = typeOrder.indexOf(b.type);
     return indexA - indexB;
@@ -173,7 +173,7 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
 
     if (value === "TIME") {
       const sorted = [...highlightsData].sort(
-        (a, b) => a.time_in_seconds - b.time_in_seconds
+        (a, b) => a.properties.time_in_seconds.rich_text[0].plain_text - b.properties.time_in_seconds.rich_text[0].plain_text
       );
       setHighlightsData(sorted);
       setCurrentHighlightIndex(0);
@@ -208,7 +208,7 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
   const seekToHighlight = useCallback(
     (index) => {
       if (player && highlightsData[index]) {
-        const startTime = parseInt(highlightsData[index].time_in_seconds) - 5;
+        const startTime = parseInt(highlightsData[index].properties.time_in_seconds.rich_text[0].plain_text) - 5;
         player.seekTo(startTime, true);
         setCurrentTime(startTime);
         setClipProgress(0);
@@ -229,7 +229,7 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
       const highlight = highlightsData[idx];
       if (!highlight) return;
 
-      const startTime = parseInt(highlight.time_in_seconds) - 5;
+      const startTime = parseInt(highlight.properties.time_in_seconds.rich_text[0].plain_text) - 5;
       const elapsed = Math.max(0, current - startTime);
       setClipProgress(elapsed);
 
@@ -270,7 +270,7 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
     currentHighlightIndexRef.current = index;
 
     if (player) {
-      const startTime = parseInt(highlight.time_in_seconds) - 5;
+      const startTime = parseInt(highlight.properties.time_in_seconds.rich_text[0].plain_text) - 5;
       player.seekTo(startTime, true);
       setCurrentTime(startTime);
       setClipProgress(0);
@@ -302,7 +302,8 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
   const progressPercentage = (clipProgress / clipDuration) * 100;
 
   return (
-    <div style = { { marginBottom : "80px" } }>
+    <div style = { { paddingBottom : "80px", borderBottom : "1px solid rgba(255, 255, 255, 0.16)" } }>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <h1>Game</h1>
         {/* GAME INFO */}
@@ -375,7 +376,7 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
         </div>
 
         <div style={{ width: "100%", height: "100px", overflowX: "scroll", display: "flex", flexDirection: "row", gap: "4px" }}>
-          {highlightsData.map((highlight, index) => (
+          { highlightsData.map( ( highlight, index ) => (
             <button
               key={index}
               onClick={() => handleHighlightClick(index)}
@@ -383,8 +384,8 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
               className="button-highlight"
             >
               <div>
-                <h3>{highlight.type}</h3>
-                <p className="meta">{highlight.time}</p>
+                <h3>{ highlight.properties.type.rich_text[0].plain_text }</h3>
+                <p className="meta">{ highlight.properties.time.rich_text[0].plain_text }</p>
               </div>
             </button>
           ))}

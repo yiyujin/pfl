@@ -274,7 +274,7 @@ export default function Player(){
                         key={index} 
                         playerId={id} 
                         videoId={item.properties.youtube_id.rich_text[0]?.plain_text} 
-                        gameId={item.properties.game_id?.rich_text[0]?.plain_text}
+                        gameId={item.id}
                     />
                 ))
             ) : (
