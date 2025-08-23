@@ -1,6 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-
-import { useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -16,97 +15,145 @@ import { dataGames } from "../data/dataGames";
 export default function Player(){
     const { id } = useParams(); // player_id
 
+    // State for games data
+    const [games, setGames] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
     // PARSE DATA
     const data = dataPlayers.results.filter( (item) => item.id === id );
-    const playerName = data[0].properties.Name.title[0].plain_text;
-    const backNumber = data[0].properties.back_number.rich_text[0].plain_text;
+    const playerName = data[0]?.properties.Name.title[0]?.plain_text || "";
+    const backNumber = data[0]?.properties.back_number.rich_text[0]?.plain_text || "";
 
-    const teamId = data[0].properties.Teams.relation[0].id;
+    const teamId = data[0]?.properties.Teams.relation[0]?.id;
     const team = dataTeams.results.filter( (item) => item.id === teamId );
-    const teamName = team[0].properties.Name.title[0].plain_text;
+    const teamName = team[0]?.properties.Name.title[0]?.plain_text || "";
 
-    const statsArr = dataStats.results.filter( (item) => (item.properties.player.relation[0].id) === id );
-    console.log(statsArr);
+    const statsArr = dataStats.results.filter( (item) => (item.properties.player.relation[0]?.id) === id );
+    
     const stats = {
-        "GP" : String(statsArr[0].properties.GP.rich_text[0].plain_text),
-        "MIN" : String(statsArr[0].properties.MIN.rich_text[0].plain_text),
-        "PTS" : String(statsArr[0].properties.PTS.formula.number),
-        "FG" : String(statsArr[0].properties.FG.number),
-        "FGA" : String(statsArr[0].properties.FGA.number),
-        "FGP" : String(statsArr[0].properties.FGP.formula.number),
-        "3FG" : String(statsArr[0].properties["3FG"].number),
-        "3FGA" : String(statsArr[0].properties["3FGA"].number),
-        "3FGP" : String(statsArr[0].properties["3FGP"].formula.number),
-        "FT" : String(statsArr[0].properties.FT.number),
-        "FTA" : String(statsArr[0].properties.FTA.number),
-        "FTP" : String(statsArr[0].properties.FTP.formula.number),
+        "GP" : String(statsArr[0]?.properties.GP.rich_text[0]?.plain_text || "0"),
+        "MIN" : String(statsArr[0]?.properties.MIN.rich_text[0]?.plain_text || "0"),
+        "PTS" : String(statsArr[0]?.properties.PTS.formula?.number || 0),
+        "FG" : String(statsArr[0]?.properties.FG?.number || 0),
+        "FGA" : String(statsArr[0]?.properties.FGA?.number || 0),
+        "FGP" : String(statsArr[0]?.properties.FGP.formula?.number || 0),
+        "3FG" : String(statsArr[0]?.properties["3FG"]?.number || 0),
+        "3FGA" : String(statsArr[0]?.properties["3FGA"]?.number || 0),
+        "3FGP" : String(statsArr[0]?.properties["3FGP"].formula?.number || 0),
+        "FT" : String(statsArr[0]?.properties.FT?.number || 0),
+        "FTA" : String(statsArr[0]?.properties.FTA?.number || 0),
+        "FTP" : String(statsArr[0]?.properties.FTP.formula?.number || 0),
     }
 
-
-    // test : 5zCAljRV7Ls, 87vjbQzQyXU
-    const games = dataGames.results.filter( ( item ) => item.properties.players.relation.some( ( rel ) => rel.id === id ) );
-    const youtubeIds = games.map( ( item ) => item.properties.youtube_id.rich_text[0]?.plain_text );
+    // Use useEffect to filter games data
+    useEffect(() => {
+        if (!id) return;
+        
+        setIsLoading(true);
+        
+        try {
+            const filteredGames = dataGames.results.filter((item) => {
+                // Add safety checks
+                if (!item.properties.players?.relation) return false;
+                
+                return item.properties.players.relation.some((rel) => rel.id === id);
+            });
+            
+            console.log("Filtered games:", filteredGames);
+            
+            // Additional filtering to ensure we have valid youtube_id
+            const validGames = filteredGames.filter(game => 
+                game.properties.youtube_id?.rich_text?.[0]?.plain_text
+            );
+            
+            setGames(validGames);
+            
+            // Log the first game's youtube_id if it exists
+            if (validGames.length > 0) {
+                console.log("First game youtube_id:", validGames[0].properties.youtube_id.rich_text[0].plain_text);
+            }
+        } catch (error) {
+            console.error("Error filtering games:", error);
+            setGames([]);
+        } finally {
+            setIsLoading(false);
+        }
+    }, [id]);
 
     const statsContainerRef = useRef(null);
     const spanRefs = useRef([]);
 
     useEffect(() => {
-        // Set initial state for all spans
-        spanRefs.current.forEach((span) => {
-            if (span) {
-                gsap.set(span, { height: "0%" });
-            }
-        });
+        // Wait for the next tick to ensure spans are rendered
+        const setupAnimations = () => {
+            // Clean up existing triggers
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+            
+            // Set initial state for all spans
+            spanRefs.current.forEach((span) => {
+                if (span) {
+                    gsap.set(span, { height: "0%" });
+                }
+            });
 
-        // Create scroll trigger for each span
-        spanRefs.current.forEach((span, index) => {
-            if (span) {
-                ScrollTrigger.create({
-                    trigger: span.parentElement, // The parent div containing the span
-                    start: "left right", // When left edge of trigger hits right edge of viewport
-                    end: "right left", // When right edge of trigger hits left edge of viewport
-                    scroller: statsContainerRef.current, // The horizontal scroll container
-                    horizontal: true, // Enable horizontal scrolling detection
-                    onEnter: () => {
-                        gsap.to(span, {
-                            height: span.dataset.targetHeight || "46%",
-                            duration: 1.2,
-                            ease: "power2.out"
-                        });
-                    },
-                    onLeave: () => {
-                        // Optional: Reset when scrolling past
-                        gsap.to(span, {
-                            height: "0%",
-                            duration: 0.6,
-                            ease: "power2.in"
-                        });
-                    },
-                    onEnterBack: () => {
-                        // Re-animate when scrolling back
-                        gsap.to(span, {
-                            height: span.dataset.targetHeight || "46%",
-                            duration: 1.2,
-                            ease: "power2.out"
-                        });
-                    },
-                    onLeaveBack: () => {
-                        // Optional: Reset when scrolling back past
-                        gsap.to(span, {
-                            height: "0%",
-                            duration: 0.6,
-                            ease: "power2.in"
-                        });
-                    }
-                });
-            }
-        });
+            // Create scroll trigger for each span
+            spanRefs.current.forEach((span, index) => {
+                if (span) {
+                    ScrollTrigger.create({
+                        trigger: span.parentElement,
+                        start: "left right",
+                        end: "right left",
+                        scroller: statsContainerRef.current,
+                        horizontal: true,
+                        onEnter: () => {
+                            gsap.to(span, {
+                                height: span.dataset.targetHeight || "46%",
+                                duration: 1.2,
+                                ease: "power2.out"
+                            });
+                        },
+                        onLeave: () => {
+                            gsap.to(span, {
+                                height: "0%",
+                                duration: 0.6,
+                                ease: "power2.in"
+                            });
+                        },
+                        onEnterBack: () => {
+                            gsap.to(span, {
+                                height: span.dataset.targetHeight || "46%",
+                                duration: 1.2,
+                                ease: "power2.out"
+                            });
+                        },
+                        onLeaveBack: () => {
+                            gsap.to(span, {
+                                height: "0%",
+                                duration: 0.6,
+                                ease: "power2.in"
+                            });
+                        }
+                    });
+                }
+            });
+        };
 
-        // Cleanup function
+        // Delay setup to ensure DOM elements are ready
+        const timeoutId = setTimeout(setupAnimations, 100);
+
         return () => {
+            clearTimeout(timeoutId);
             ScrollTrigger.getAll().forEach(trigger => trigger.kill());
         };
-    }, []);
+    }, [isLoading]); // Add isLoading as dependency
+
+    if (isLoading) {
+        return (
+            <div className="page">
+                <div>Loading player data...</div>
+            </div>
+        );
+    }
 
     return(
         <div className = "page">
@@ -116,13 +163,6 @@ export default function Player(){
             </div>
 
             <br/>
-
-            {/* <div style = { { display : "flex", flexDirection : "row", gap : "16px", alignItems : "center", overflowX : "scroll", width : "100%", height : "100px", borderRadius : "16px", background : "rgba(255, 255, 255, 0.08)"} }>
-                <p>FG%</p>
-                <p>FG% ..</p>
-                <p>FG% .. next</p>
-            </div> */}
-
 
             {/* STATS */}
             <hr/>
@@ -224,32 +264,21 @@ export default function Player(){
 
             <br/><br/>
             <hr/>
-            <p className = "meta">HIGHGLIGHTS</p>
+            <p className = "meta">HIGHLIGHTS</p>
             <br/><br/>
-
-            {/* GAME INFO */}
-            <h1>Game</h1>
-            <div style={{ display: "flex", flexDirection: "row", gap: "16px", alignItems : "center" }}>
-                <p>SCP vs EL</p>
-                <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
-                    <Scoreboard style={{ fontSize: "14px", color: "white" }} />
-                    <p className="meta">57 : 61</p>
-                </div>
-
-                <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
-                    <EventAvailable style={{ fontSize: "14px", color: "white" }} />
-                    <p className="meta">Aug 20, 2025</p>
-                </div>
-
-                <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
-                    <Stadium style={{ fontSize: "14px", color: "white" }} />
-                    <p className = "meta">Healy School</p>
-                </div>
-            </div>
             
-            {/* VIDEOS */}            
-            { youtubeIds.map( ( item,index ) =>
-                <YoutubePlayer key = { index } playerId = { id } videoId = { item } />
+            {/* VIDEOS */}         
+            {games.length > 0 ? (
+                games.map((item, index) => (
+                    <YoutubePlayer 
+                        key={index} 
+                        playerId={id} 
+                        videoId={item.properties.youtube_id.rich_text[0]?.plain_text} 
+                        gameId={item.properties.game_id?.rich_text[0]?.plain_text}
+                    />
+                ))
+            ) : (
+                <div>No games found for this player.</div>
             )}
 
         </div>

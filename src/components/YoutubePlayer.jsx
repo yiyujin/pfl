@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { data } from '../mockdata.js';
-import { ArrowBack, ArrowForward, PlayArrow, Pause } from '@mui/icons-material';
+import { ArrowBack, ArrowForward, PlayArrow, Pause, EventAvailable, Stadium, Scoreboard } from '@mui/icons-material';
 import { dataGames } from "../data/dataGames.js";
 
 const typeOrder = [
@@ -12,8 +12,56 @@ const typeOrder = [
   "1pt A"
 ];
 
+// YouTube API manager to handle multiple players
+class YouTubeAPIManager {
+  constructor() {
+    this.isLoaded = false;
+    this.isLoading = false;
+    this.callbacks = [];
+  }
+
+  load() {
+    return new Promise((resolve) => {
+      if (this.isLoaded) {
+        resolve();
+        return;
+      }
+
+      this.callbacks.push(resolve);
+
+      if (this.isLoading) return;
+
+      this.isLoading = true;
+
+      if (window.YT && window.YT.Player) {
+        this.onAPIReady();
+        return;
+      }
+
+      window.onYouTubeIframeAPIReady = () => this.onAPIReady();
+
+      if (!document.querySelector("script[src='https://www.youtube.com/iframe_api']")) {
+        const script = document.createElement('script');
+        script.src = 'https://www.youtube.com/iframe_api';
+        script.async = true;
+        document.body.appendChild(script);
+      }
+    });
+  }
+
+  onAPIReady() {
+    this.isLoaded = true;
+    this.isLoading = false;
+    this.callbacks.forEach(callback => callback());
+    this.callbacks = [];
+  }
+}
+
+const youTubeAPIManager = new YouTubeAPIManager();
+
 const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
   const playerRef = useRef(null);
+  const [isAPILoaded, setIsAPILoaded] = useState(false);
   const onPlayerReadyRef = useRef(onPlayerReady);
   const onStateChangeRef = useRef(onStateChange);
 
@@ -26,25 +74,17 @@ const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
   }, [onStateChange]);
 
   useEffect(() => {
-    const loadYouTubeAPI = () => {
-      if (window.YT && window.YT.Player) {
-        initializePlayer();
-        return;
-      }
+    if (!videoId) return;
 
-      window.onYouTubeIframeAPIReady = initializePlayer;
+    youTubeAPIManager.load().then(() => {
+      setIsAPILoaded(true);
+    });
+  }, [videoId]);
 
-      if (!document.querySelector("script[src='https://www.youtube.com/iframe_api']")) {
-        const script = document.createElement('script');
-        script.src = 'https://www.youtube.com/iframe_api';
-        script.async = true;
-        document.body.appendChild(script);
-      }
-    };
+  useEffect(() => {
+    if (!isAPILoaded || !videoId) return;
 
     const initializePlayer = () => {
-      if (!videoId) return;
-
       if (playerRef.current) {
         playerRef.current.destroy();
         playerRef.current = null;
@@ -78,15 +118,19 @@ const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
       });
     };
 
-    loadYouTubeAPI();
+    // Small delay to ensure DOM element is ready
+    setTimeout(initializePlayer, 100);
 
     return () => {
-      if (playerRef.current) playerRef.current.destroy();
+      if (playerRef.current) {
+        playerRef.current.destroy();
+        playerRef.current = null;
+      }
     };
-  }, [videoId]);
+  }, [isAPILoaded, videoId]);
 
   return (
-    <div style = { { position: 'relative', paddingTop: '56.25%', width: '100%' } }>
+    <div style={{ position: 'relative', paddingTop: '56.25%', width: '100%' }}>
       <div
         id={`youtube-player-${videoId}`}
         style={{
@@ -101,11 +145,9 @@ const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
   );
 };
 
-export default function YoutubePlayer( { playerId, videoId } ) {
-  // FETCH videoID
-  const fetchedGames = dataGames.results;
-
-  // const [videoId, setVideoId] = useState(videoId);
+export default function YoutubePlayer({ playerId, videoId, gameId }) {
+  console.log("games", gameId)
+  
   const [player, setPlayer] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isReady, setIsReady] = useState(false);
@@ -118,32 +160,35 @@ export default function YoutubePlayer( { playerId, videoId } ) {
   const clipDuration = 8;
 
   // DATA
-  const initialHighlightsData = data.filter( (item) => item.player_id === '246afaf7-b684-80fd-a00f-dd7cf7d6d213').sort((a, b) => { const indexA = typeOrder.indexOf(a.type); const indexB = typeOrder.indexOf(b.type); return indexA - indexB; });
+  const initialHighlightsData = data.filter((item) => item.player_id === playerId).sort((a, b) => {
+    const indexA = typeOrder.indexOf(a.type);
+    const indexB = typeOrder.indexOf(b.type);
+    return indexA - indexB;
+  });
+
   const [highlightsData, setHighlightsData] = useState(initialHighlightsData);
-  
+
   const handleSortChange = (e) => {
     const value = e.target.value;
 
     if (value === "TIME") {
-        const sorted = [...highlightsData].sort(
+      const sorted = [...highlightsData].sort(
         (a, b) => a.time_in_seconds - b.time_in_seconds
-        );
-
-        setHighlightsData(sorted);
-        setCurrentHighlightIndex(0);
-        currentHighlightIndexRef.current = 0;
+      );
+      setHighlightsData(sorted);
+      setCurrentHighlightIndex(0);
+      currentHighlightIndexRef.current = 0;
     } else if (value === "TYPE") {
-        const sorted = [...highlightsData].sort((a, b) => {
+      const sorted = [...highlightsData].sort((a, b) => {
         const indexA = typeOrder.indexOf(a.type);
         const indexB = typeOrder.indexOf(b.type);
         return indexA - indexB;
-        });
-
-        setHighlightsData(sorted);
-        setCurrentHighlightIndex(0);
-        currentHighlightIndexRef.current = 0;
+      });
+      setHighlightsData(sorted);
+      setCurrentHighlightIndex(0);
+      currentHighlightIndexRef.current = 0;
     }
-    };
+  };
 
   useEffect(() => {
     currentHighlightIndexRef.current = currentHighlightIndex;
@@ -154,14 +199,11 @@ export default function YoutubePlayer( { playerId, videoId } ) {
     setIsReady(true);
   }, []);
 
-  const onStateChange = useCallback(
-    (event) => {
-      if (event.data === window.YT.PlayerState.PLAYING) startTimeTracking();
-      else stopTimeTracking();
-      setIsPlaying(event.data === window.YT.PlayerState.PLAYING);
-    },
-    []
-  );
+  const onStateChange = useCallback((event) => {
+    if (event.data === window.YT.PlayerState.PLAYING) startTimeTracking();
+    else stopTimeTracking();
+    setIsPlaying(event.data === window.YT.PlayerState.PLAYING);
+  }, []);
 
   const seekToHighlight = useCallback(
     (index) => {
@@ -172,7 +214,7 @@ export default function YoutubePlayer( { playerId, videoId } ) {
         setClipProgress(0);
       }
     },
-    [player]
+    [player, highlightsData]
   );
 
   const startTimeTracking = useCallback(() => {
@@ -191,8 +233,6 @@ export default function YoutubePlayer( { playerId, videoId } ) {
       const elapsed = Math.max(0, current - startTime);
       setClipProgress(elapsed);
 
-    //   console.log(currentHighlightIndexRef, elapsed); // DEBUG
-
       if (elapsed >= clipDuration) {
         stopTimeTracking();
 
@@ -206,7 +246,7 @@ export default function YoutubePlayer( { playerId, videoId } ) {
         }, 200);
       }
     }, 100);
-  }, [player, clipDuration, seekToHighlight]);
+  }, [player, clipDuration, seekToHighlight, highlightsData]);
 
   const stopTimeTracking = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
@@ -222,22 +262,22 @@ export default function YoutubePlayer( { playerId, videoId } ) {
 
   const handlePause = () => player && player.pauseVideo();
 
-const handleHighlightClick = (index) => {
-  const highlight = highlightsData[index]; // always get from current sorted array
-  if (!highlight) return;
+  const handleHighlightClick = (index) => {
+    const highlight = highlightsData[index];
+    if (!highlight) return;
 
-  setCurrentHighlightIndex(index);
-  currentHighlightIndexRef.current = index;
+    setCurrentHighlightIndex(index);
+    currentHighlightIndexRef.current = index;
 
-  if (player) {
-    const startTime = parseInt(highlight.time_in_seconds) - 5;
-    player.seekTo(startTime, true);
-    setCurrentTime(startTime);
-    setClipProgress(0);
+    if (player) {
+      const startTime = parseInt(highlight.time_in_seconds) - 5;
+      player.seekTo(startTime, true);
+      setCurrentTime(startTime);
+      setClipProgress(0);
 
-    if (isPlaying) player.playVideo();
-  }
-};
+      if (isPlaying) player.playVideo();
+    }
+  };
 
   const handlePrevious = () => {
     const prevIndex = currentHighlightIndex > 0 ? currentHighlightIndex - 1 : highlightsData.length - 1;
@@ -260,81 +300,96 @@ const handleHighlightClick = (index) => {
   };
 
   const progressPercentage = (clipProgress / clipDuration) * 100;
-  const currentHighlight = highlightsData[currentHighlightIndex];
 
   return (
-    <div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Main Video */}
-          <div className="lg:col-span-2">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="relative bg-black">
-                {!isReady && (
-                  <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
-                    <div className="text-center">
-                      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"></div>
-                      <div className="text-white">Loading video...</div>
-                    </div>
-                  </div>
-                )}
+    <div style = { { marginBottom : "80px" } }>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <h1>Game</h1>
+        {/* GAME INFO */}
+        <div style={{ display: "flex", flexDirection: "row", gap: "16px", alignItems : "center" }}>
+          <p>SCP vs EL</p>
+          <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
+              <Scoreboard style={{ fontSize: "14px", color: "white" }} />
+              <p className="meta">57 : 61</p>
+          </div>
 
-                <YouTubePlayer videoId={videoId} onPlayerReady={onPlayerReady} onStateChange={onStateChange} />
-              </div>
+          <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
+              <EventAvailable style={{ fontSize: "14px", color: "white" }} />
+              <p className="meta">Aug 20, 2025</p>
+          </div>
+
+          <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
+              <Stadium style={{ fontSize: "14px", color: "white" }} />
+              <p className = "meta">Healy School</p>
+          </div>
+        </div>
+
+        {/* Main Video */}
+        <div className="lg:col-span-2">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="relative bg-black">
+              {!isReady && (
+                <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
+                  <div className="text-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"></div>
+                    <div className="text-white">Loading video...</div>
+                  </div>
+                </div>
+              )}
+
+              <YouTubePlayer videoId={videoId} onPlayerReady={onPlayerReady} onStateChange={onStateChange} />
+            </div>
           </div>
         </div>
 
         {/* Controls */}
-        <div className = "control-buttons" style = { { width : "100%", display : "flex", flexDirection : "row", marginTop : "1px" } }>
-            <button onClick={handlePrevious} disabled={!isReady}><ArrowBack/></button>
+        <div className="control-buttons" style={{ width: "100%", display: "flex", flexDirection: "row", marginTop: "1px" }}>
+          <button onClick={handlePrevious} disabled={!isReady}><ArrowBack /></button>
 
-            {!isPlaying ? (
-                <button onClick={handlePlay} disabled={!isReady}><PlayArrow/></button>
-            ) : (
-                <button onClick={handlePause}><Pause/></button>
-            )}
+          {!isPlaying ? (
+            <button onClick={handlePlay} disabled={!isReady}><PlayArrow /></button>
+          ) : (
+            <button onClick={handlePause}><Pause /></button>
+          )}
 
-            <button onClick={handleNext} disabled={!isReady}><ArrowForward/></button>
+          <button onClick={handleNext} disabled={!isReady}><ArrowForward /></button>
         </div>
 
         {/* PROGRESS BAR */}
-        
-
-        <div style = { { width: "100%", background: "rgba(255, 255, 255, 0.04)", height: "4px" }}>
-            <div style = { { background: "rgba(255, 255, 255, 0.4)", height: "100%", width: `${Math.min(progressPercentage, 100)}%`, transition: "width 0.1s linear" }}/>
+        <div style={{ width: "100%", background: "rgba(255, 255, 255, 0.04)", height: "4px" }}>
+          <div style={{ background: "rgba(255, 255, 255, 0.4)", height: "100%", width: `${Math.min(progressPercentage, 100)}%`, transition: "width 0.1s linear" }} />
         </div>
-        <p className = "meta">playing {currentHighlightIndex + 1}/{highlightsData.length}.. ({formatTime(clipProgress)} / {formatTime(clipDuration)})</p>
-
+        <p className="meta">playing {currentHighlightIndex + 1}/{highlightsData.length}.. ({formatTime(clipProgress)} / {formatTime(clipDuration)})</p>
 
         {/* Highlights List */}
-        <br/>
-        <div style = { { display : "flex", flexDirection : "row" } }>
-            <h3 style = { { flex : 1 } }>Highlights ({highlightsData.length})</h3>
-            <select
-                style={{ width: "160px", height : "28px" }}
-                onChange={handleSortChange}
-            >
-                <option value="TYPE">sort by TYPE</option>
-                <option value="TIME">sort by TIME</option>
-            </select>
+        <br />
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <h3 style={{ flex: 1 }}>Highlights ({highlightsData.length})</h3>
+          <select
+            style={{ width: "160px", height: "28px" }}
+            onChange={handleSortChange}
+          >
+            <option value="TYPE">sort by TYPE</option>
+            <option value="TIME">sort by TIME</option>
+          </select>
         </div>
 
-        <div style = { { width : "100%", height : "100px", overflowX : "scroll", display : "flex", flexDirection : "row", gap : "4px" } }>
-            { highlightsData.map( ( highlight, index ) => (
-                <button
-                key = { index }
-                onClick = { () => handleHighlightClick(index) }
-                style = { { width : "100px", opacity : index === currentHighlightIndex ? 1 : 0.5 } }
-                className = "button-highlight"
-                >
-                <div>
-                    <h3>{ highlight.type }</h3>
-                    <p className = "meta">{ highlight.time }</p>
-                </div>
-                </button>
-            ))}
+        <div style={{ width: "100%", height: "100px", overflowX: "scroll", display: "flex", flexDirection: "row", gap: "4px" }}>
+          {highlightsData.map((highlight, index) => (
+            <button
+              key={index}
+              onClick={() => handleHighlightClick(index)}
+              style={{ width: "100px", opacity: index === currentHighlightIndex ? 1 : 0.5 }}
+              className="button-highlight"
+            >
+              <div>
+                <h3>{highlight.type}</h3>
+                <p className="meta">{highlight.time}</p>
+              </div>
+            </button>
+          ))}
         </div>
-    
-        </div>
+      </div>
     </div>
   );
 }
