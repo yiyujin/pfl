@@ -285,3 +285,7 @@ button {
   background-color: white;
   color: black;
 }
+
+#main-youtube-player {
+  filter : blur(4px);
+}
