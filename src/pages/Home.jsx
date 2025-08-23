@@ -1,26 +1,15 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { data, Link } from "react-router-dom";
 import RandomText from "../components/RandomText";
 import { dataPlayers } from "../data/dataPlayers";
 
-const supportedTeams = [
-  "246afaf7-b684-809a-b5d3-f7ad40ebc10f", // CC
-  "232afaf7-b684-80e1-a49e-e3218119fd68", // SCP
-  "23fafaf7-b684-8002-b33a-eef8d0e0577d", // SRS
-  "24aafaf7-b684-80df-98eb-c1640505d7f1", // EL
-  "1a7afaf7-b684-8080-98c8-c527d723323b", // CGB
-];
-
-// filter players by supported teams
-const filteredPlayers = dataPlayers.results.filter((item) =>
-  supportedTeams.includes(item.properties.Teams.relation[0].id)
-);
+const players = dataPlayers.results;
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
 
   // Extract all valid player names
-  const playerNames = filteredPlayers.map(
+  const playerNames = players.map(
     (p) => p.properties.Name.title[0].plain_text
   );
 
@@ -30,7 +19,7 @@ export default function Home() {
   );
 
   // Find the matched player object (only needed for the Link)
-  const matchedPlayer = filteredPlayers.find(
+  const matchedPlayer = players.find(
     (p) =>
       p.properties.Name.title[0].plain_text.toLowerCase() ===
       inputValue.toLowerCase()
@@ -53,7 +42,7 @@ export default function Home() {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
-          <p>Enter your name to view your highlights</p>
+          <p>Enter your full name to view your highlights</p>
 
           <Link
             to={playerId ? `/player/${playerId}` : "#"}
@@ -71,7 +60,7 @@ export default function Home() {
 
         <div className="stats-container">
           <div className="stats">
-            <RandomText txt="9" fontSize="56" />
+            <RandomText txt="6" fontSize="56" />
             <h3>Teams</h3>
           </div>
 

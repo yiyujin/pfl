@@ -287,5 +287,5 @@ button {
 }
 
 #main-youtube-player {
-  filter : blur(4px);
+  /* filter : blur(4px); */
 }

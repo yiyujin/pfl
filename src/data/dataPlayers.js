@@ -1,6 +1,2457 @@
+// https://web.postman.co/workspace/My-Workspace~583b59b3-1cc0-4a02-89e4-a7043db38fca/request/22491548-4c60a62c-565b-4e2c-99a5-fc2d0b80be3a
+
 export const dataPlayers = {
     "object": "list",
     "results": [
+        {
+            "object": "page",
+            "id": "258afaf7-b684-8009-9d92-e6d65445a602",
+            "created_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "75",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "75",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Jimmy Wyman",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Jimmy Wyman",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Jimmy-Wyman-258afaf7b68480099d92e6d65445a602",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-809c-926f-d5d098b8026f",
+            "created_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "51",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "51",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Mike Rambo",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Mike Rambo",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Mike-Rambo-258afaf7b684809c926fd5d098b8026f",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-8027-8f0e-de166ed4b315",
+            "created_time": "2025-08-23T06:00:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "49",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "49",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Steve DuPuis",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Steve DuPuis",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Steve-DuPuis-258afaf7b68480278f0ede166ed4b315",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-80b9-a309-f29a0fdb926d",
+            "created_time": "2025-08-23T06:00:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "44",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "44",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Kayron Wright",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Kayron Wright",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Kayron-Wright-258afaf7b68480b9a309f29a0fdb926d",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-80f4-8a3b-c021149c9f9b",
+            "created_time": "2025-08-23T06:00:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "36",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "36",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Eric Jones",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Eric Jones",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Eric-Jones-258afaf7b68480f48a3bc021149c9f9b",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-80ff-a226-ddf782b8ada2",
+            "created_time": "2025-08-23T06:00:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "23",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "23",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Evan McDaniel",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Evan McDaniel",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Evan-McDaniel-258afaf7b68480ffa226ddf782b8ada2",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-805c-8e69-e37faf1cb0f3",
+            "created_time": "2025-08-23T06:00:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "21",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "21",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Nick Barash",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Nick Barash",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Nick-Barash-258afaf7b684805c8e69e37faf1cb0f3",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-8081-826e-e12c7245e306",
+            "created_time": "2025-08-23T06:00:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "11",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "11",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Christian Champney",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Christian Champney",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Christian-Champney-258afaf7b6848081826ee12c7245e306",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-8055-b2a9-ed2ca28be17c",
+            "created_time": "2025-08-23T06:00:00.000Z",
+            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "01",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "01",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "MIT Engineers",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "MIT Engineers",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Tyler",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Tyler",
+                            "href": null
+                        }
+                    ]
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Epstein",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Epstein",
+                            "href": null
+                        }
+                    ]
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "258afaf7-b684-805a-a438-d00ace98dce8"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Tyler Epstein",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Tyler Epstein",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Tyler-Epstein-258afaf7b6848055b2a9ed2ca28be17c",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-80ad-9f88-e84ffabb89f3",
+            "created_time": "2025-08-23T05:41:00.000Z",
+            "last_edited_time": "2025-08-23T06:14:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Emerson Lions",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Emerson Lions",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "24aafaf7-b684-80df-98eb-c1640505d7f1"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Jake McMahon",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Jake McMahon",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Jake-McMahon-258afaf7b68480ad9f88e84ffabb89f3",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "258afaf7-b684-8052-8ae9-f6572d26f68b",
+            "created_time": "2025-08-23T05:02:00.000Z",
+            "last_edited_time": "2025-08-23T06:14:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "nationality": {
+                    "id": "%3CiZU",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "back_number": {
+                    "id": "%3DWM%3D",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "66",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "66",
+                            "href": null
+                        }
+                    ]
+                },
+                "password": {
+                    "id": "FjVb",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "email": {
+                    "id": "MC%5Db",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "order": {
+                    "id": "VPGL",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "nickname": {
+                    "id": "XaV%60",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Rollup": {
+                    "id": "YFzl",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Clark Cougars",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Clark Cougars",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "position": {
+                    "id": "%5BpSt",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "position_rollup": {
+                    "id": "%5DYCo",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [],
+                        "function": "show_original"
+                    }
+                },
+                "birthday": {
+                    "id": "%60dY%5D",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "tags": {
+                    "id": "bp~R",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "first_name": {
+                    "id": "mUz~",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "games": {
+                    "id": "oXNs",
+                    "type": "relation",
+                    "relation": [],
+                    "has_more": false
+                },
+                "profile_picture": {
+                    "id": "qV%3AS",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "height": {
+                    "id": "va%7B%5C",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Status": {
+                    "id": "xWCN",
+                    "type": "select",
+                    "select": {
+                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
+                        "name": "Active",
+                        "color": "green"
+                    }
+                },
+                "last_name": {
+                    "id": "yvmM",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Teams": {
+                    "id": "%7Dzrt",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-809a-b5d3-f7ad40ebc10f"
+                        }
+                    ],
+                    "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Mehmet Saltik",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Mehmet Saltik",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Mehmet-Saltik-258afaf7b68480528ae9f6572d26f68b",
+            "public_url": null
+        },
         {
             "object": "page",
             "id": "24aafaf7-b684-8003-9898-e8a947d0d123",
@@ -316,6 +2767,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -660,6 +3129,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -1002,6 +3489,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -1346,6 +3851,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -1688,6 +4211,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -2032,6 +4573,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -2375,6 +4934,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -2717,6 +5294,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -3065,6 +5660,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -3411,6 +6024,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -3759,6 +6390,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -4105,6 +6754,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -4453,6 +7120,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -4799,6 +7484,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -5147,6 +7850,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -5493,6 +8214,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -5841,6 +8580,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -6133,6 +8890,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -6427,6 +9202,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -6720,6 +9513,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -7008,6 +9819,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -7302,6 +10131,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -7594,6 +10441,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -7888,6 +10753,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -8176,6 +11059,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -8469,6 +11370,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -8867,6 +11786,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -9263,6 +12200,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -9661,6 +12616,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -10057,6 +13030,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -10455,6 +13446,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -10851,6 +13860,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -11249,6 +14276,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -11645,6 +14690,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -12043,6 +15106,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -12439,6 +15520,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -12837,6 +15936,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -13233,6 +16350,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -13631,6 +16766,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -14027,6 +17180,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -14425,6 +17596,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -14821,6 +18010,24 @@ export const dataPlayers = {
                         }
                     ],
                     "has_more": false
+                },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
                 },
                 "Name": {
                     "id": "title",
@@ -15219,6 +18426,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -15616,6 +18841,24 @@ export const dataPlayers = {
                     ],
                     "has_more": false
                 },
+                "League": {
+                    "id": "~Whm",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "select",
+                                "select": {
+                                    "id": "aa1560b1-ae78-4123-8c86-068366869c14",
+                                    "name": "pfl-summer-2025",
+                                    "color": "default"
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
                 "Name": {
                     "id": "title",
                     "type": "title",
@@ -15642,13808 +18885,6 @@ export const dataPlayers = {
             },
             "url": "https://www.notion.so/Jin-Yi-232afaf7b68480c1bdffcf3813eed778",
             "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1c7afaf7-b684-8012-9e3c-d098549c9fb4",
-            "created_time": "2025-03-31T23:38:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "85",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "85",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "0",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "0",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "금발로",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "금발로",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-804d-aee3-fbdf76a3d1b7"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Goalkeeper",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Goalkeeper",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1977",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1977",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Sinhye S.",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Sinhye S.",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Moon",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Moon",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "STELLA M",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "STELLA M",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/STELLA-M-1c7afaf7b68480129e3cd098549c9fb4",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b8afaf7-b684-8057-bfe7-f98fda7ded3e",
-            "created_time": "2025-03-16T23:08:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "23",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "23",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "JDC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "JDC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Sunyoung",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Sunyoung",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Park",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Park",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-8047-b90d-f612d47c8d0b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SY Park",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SY Park",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SY-Park-1b8afaf7b6848057bfe7f98fda7ded3e",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b8afaf7-b684-807e-8bdb-cbaf0941c1af",
-            "created_time": "2025-03-16T23:07:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "0",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "0",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "JDC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "JDC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8063-b24f-fb29983943ae"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Guard",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Guard",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Youngwoo",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Youngwoo",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Na",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Na",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-8047-b90d-f612d47c8d0b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "YW",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "YW",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/YW-1b8afaf7b684807e8bdbcbaf0941c1af",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b8afaf7-b684-80c5-8345-feb8a3128264",
-            "created_time": "2025-03-16T23:07:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "2",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "2",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "JDC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "JDC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80b6-91c9-eead526b903b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Center",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Center",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Seikyung",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Seikyung",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Lee",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Lee",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-8047-b90d-f612d47c8d0b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SK",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SK",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SK-1b8afaf7b68480c58345feb8a3128264",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b8afaf7-b684-8049-ae18-e087184bd21d",
-            "created_time": "2025-03-16T23:07:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "JDC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "JDC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Soyeon",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Soyeon",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Yang",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Yang",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-8047-b90d-f612d47c8d0b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SY Yang",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SY Yang",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SY-Yang-1b8afaf7b6848049ae18e087184bd21d",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b8afaf7-b684-8015-bd20-c934869b545a",
-            "created_time": "2025-03-16T23:07:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "JDC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "JDC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Soyoun",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Soyoun",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Lee",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Lee",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-8047-b90d-f612d47c8d0b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SY Lee",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SY Lee",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SY-Lee-1b8afaf7b6848015bd20c934869b545a",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b8afaf7-b684-8013-97c2-efb58ad8b9ec",
-            "created_time": "2025-03-16T23:06:00.000Z",
-            "last_edited_time": "2025-08-16T00:15:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "JDC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "JDC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Soojin",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Soojin",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Lee",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Lee",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-8047-b90d-f612d47c8d0b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SJ",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SJ",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SJ-1b8afaf7b684801397c2efb58ad8b9ec",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b8afaf7-b684-80e6-8176-ebd041ca69ca",
-            "created_time": "2025-03-16T23:02:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "10",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "10",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "2",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "2",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "JDC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "JDC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80b6-91c9-eead526b903b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Center",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Center",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Seulki",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Seulki",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Lee",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Lee",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-8047-b90d-f612d47c8d0b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SEUL",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SEUL",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SEUL-1b8afaf7b68480e68176ebd041ca69ca",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8053-bd90-e236005f7cb1",
-            "created_time": "2025-03-14T15:51:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "23",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "23",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "3",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "3",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "돌진",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "돌진",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80de-91aa-c44175e32385"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1994",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1994",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Yujin",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Yujin",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/wjkn5mb3/kop-headshot.png?anchor=center&mode=crop&quality=90&width=750",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/wjkn5mb3/kop-headshot.png?anchor=center&mode=crop&quality=90&width=750"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/wjkn5mb3/kop-headshot.png?anchor=center&mode=crop&quality=90&width=750",
-                            "href": "https://www.tottenhamhotspur.com/media/wjkn5mb3/kop-headshot.png?anchor=center&mode=crop&quality=90&width=750"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Yi",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Yi",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "YI",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "YI",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/YI-1b6afaf7b6848053bd90e236005f7cb1",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-808f-8e6c-c1c3799e8b6f",
-            "created_time": "2025-03-14T15:51:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "77",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "77",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "만두",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "만두",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1993",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1993",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Hyunji",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Hyunji",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/yplfccwc/web-headshot-charli.png?anchor=center&mode=crop&quality=90&width=750",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/yplfccwc/web-headshot-charli.png?anchor=center&mode=crop&quality=90&width=750"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/yplfccwc/web-headshot-charli.png?anchor=center&mode=crop&quality=90&width=750",
-                            "href": "https://www.tottenhamhotspur.com/media/yplfccwc/web-headshot-charli.png?anchor=center&mode=crop&quality=90&width=750"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "200cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "200cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Kim",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Kim",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "HYUNJI",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "HYUNJI",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/HYUNJI-1b6afaf7b684808f8e6cc1c3799e8b6f",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-80bd-ba02-d097a4707476",
-            "created_time": "2025-03-14T15:51:00.000Z",
-            "last_edited_time": "2025-08-16T00:15:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "21",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "21",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Hyun-ju",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Hyun-ju",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/1nulz5t3/ellamorrisheadshotfinal.png?anchor=center&mode=crop&quality=90&width=750",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/1nulz5t3/ellamorrisheadshotfinal.png?anchor=center&mode=crop&quality=90&width=750"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/1nulz5t3/ellamorrisheadshotfinal.png?anchor=center&mode=crop&quality=90&width=750",
-                            "href": "https://www.tottenhamhotspur.com/media/1nulz5t3/ellamorrisheadshotfinal.png?anchor=center&mode=crop&quality=90&width=750"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "ad3c1c41-7577-40cd-9d86-4808c8835756",
-                        "name": "Inactive",
-                        "color": "default"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "O",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "O",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "H J O",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "H J O",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/H-J-O-1b6afaf7b68480bdba02d097a4707476",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8015-9c29-cfdc44750203",
-            "created_time": "2025-03-14T15:51:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "25",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "25",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "장첸",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "장첸",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1993",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1993",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Suna",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Suna",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/be4bjoxa/web-headshot-amy-james-turner.png?anchor=center&mode=crop&quality=90&width=750",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/be4bjoxa/web-headshot-amy-james-turner.png?anchor=center&mode=crop&quality=90&width=750"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/be4bjoxa/web-headshot-amy-james-turner.png?anchor=center&mode=crop&quality=90&width=750",
-                            "href": "https://www.tottenhamhotspur.com/media/be4bjoxa/web-headshot-amy-james-turner.png?anchor=center&mode=crop&quality=90&width=750"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Lee",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Lee",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SUN A",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SUN A",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SUN-A-1b6afaf7b68480159c29cfdc44750203",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-80cb-841f-f40b9b82a2c8",
-            "created_time": "2025-03-14T15:50:00.000Z",
-            "last_edited_time": "2025-08-16T00:15:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "19",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "19",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "0",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "0",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-804d-aee3-fbdf76a3d1b7"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Goalkeeper",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Goalkeeper",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1973",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1973",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Christina",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Christina",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "ad3c1c41-7577-40cd-9d86-4808c8835756",
-                        "name": "Inactive",
-                        "color": "default"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Pang",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Pang",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "D S PANG",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "D S PANG",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/D-S-PANG-1b6afaf7b68480cb841ff40b9b82a2c8",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8030-ac87-d70967b8a5fc",
-            "created_time": "2025-03-14T15:50:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "19",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "19",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "밍구",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "밍구",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1993",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1993",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Min Jeong",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Min Jeong",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Kim",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Kim",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "M J KIM",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "M J KIM",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/M-J-KIM-1b6afaf7b6848030ac87d70967b8a5fc",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8010-a3a6-d60b1bf7eab5",
-            "created_time": "2025-03-14T15:50:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "27",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "27",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "클레어",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "클레어",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1989",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1989",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Sohyun",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Sohyun",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Im",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Im",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "CLAIRE IM",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "CLAIRE IM",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/CLAIRE-IM-1b6afaf7b6848010a3a6d60b1bf7eab5",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-801a-9c78-f09cb65bf8cf",
-            "created_time": "2025-03-14T15:49:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "6",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "6",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "3",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "3",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "가히",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "가히",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80de-91aa-c44175e32385"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1992",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1992",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Kaheui",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Kaheui",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Kim",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Kim",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "K.KIM",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "K.KIM",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/K-KIM-1b6afaf7b684801a9c78f09cb65bf8cf",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8010-af74-ef99a77888a1",
-            "created_time": "2025-03-14T15:49:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "17",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "17",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "2",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "2",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "하댕",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "하댕",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8053-8172-ecc69d217067"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Midfielder",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Midfielder",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1988",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1988",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Seongsil",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Seongsil",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-80ae-9309-c06bb2615b6a"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/2jnjrnjh/web-headshot-lenna.png?anchor=center&mode=crop&quality=90&width=750",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/2jnjrnjh/web-headshot-lenna.png?anchor=center&mode=crop&quality=90&width=750"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/2jnjrnjh/web-headshot-lenna.png?anchor=center&mode=crop&quality=90&width=750",
-                            "href": "https://www.tottenhamhotspur.com/media/2jnjrnjh/web-headshot-lenna.png?anchor=center&mode=crop&quality=90&width=750"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Ha",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Ha",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "SUNGSHIL",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "SUNGSHIL",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/SUNGSHIL-1b6afaf7b6848010af74ef99a77888a1",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8051-b623-cd8d8d013dad",
-            "created_time": "2025-03-14T15:48:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "9",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "9",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "왼발",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "왼발",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1977",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1977",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Christine Hyojin",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Christine Hyojin",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-80ae-9309-c06bb2615b6a"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/arshgblc/firstteam_profiles_lucasbergvall_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/arshgblc/firstteam_profiles_lucasbergvall_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/arshgblc/firstteam_profiles_lucasbergvall_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                            "href": "https://www.tottenhamhotspur.com/media/arshgblc/firstteam_profiles_lucasbergvall_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Park",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Park",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "J.PARK",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "J.PARK",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/J-PARK-1b6afaf7b6848051b623cd8d8d013dad",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-80ef-8ea1-ed4eea93eacb",
-            "created_time": "2025-03-14T15:48:00.000Z",
-            "last_edited_time": "2025-08-16T00:15:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "5",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "5",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "3",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "3",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80de-91aa-c44175e32385"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Soyeong",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Soyeong",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/5y3crbxe/firstteam_profiles_mickyvandeven_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/5y3crbxe/firstteam_profiles_mickyvandeven_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/5y3crbxe/firstteam_profiles_mickyvandeven_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                            "href": "https://www.tottenhamhotspur.com/media/5y3crbxe/firstteam_profiles_mickyvandeven_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "ad3c1c41-7577-40cd-9d86-4808c8835756",
-                        "name": "Inactive",
-                        "color": "default"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Oh",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Oh",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "CINDY",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "CINDY",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/CINDY-1b6afaf7b68480ef8ea1ed4eea93eacb",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-808f-9413-dab170d39407",
-            "created_time": "2025-03-14T15:48:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "3",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "3",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "황장군",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "황장군",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1979",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1979",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Chiae",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Chiae",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-80ae-9309-c06bb2615b6a"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/2zhm3dty/firstteam_profiles_cristianromero_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/2zhm3dty/firstteam_profiles_cristianromero_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/2zhm3dty/firstteam_profiles_cristianromero_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                            "href": "https://www.tottenhamhotspur.com/media/2zhm3dty/firstteam_profiles_cristianromero_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Hwang",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Hwang",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "HWANG",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "HWANG",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/HWANG-1b6afaf7b684808f9413dab170d39407",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-802c-8996-f157f78b5bf8",
-            "created_time": "2025-03-14T15:48:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "13",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "13",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "제니",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "제니",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8078-a84a-c662318ce81b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Defender",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Defender",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1970",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1970",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Jinsook",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Jinsook",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-80ae-9309-c06bb2615b6a"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/vulacsrz/firstteam_profiles_richarlison_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/vulacsrz/firstteam_profiles_richarlison_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/vulacsrz/firstteam_profiles_richarlison_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                            "href": "https://www.tottenhamhotspur.com/media/vulacsrz/firstteam_profiles_richarlison_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Woo",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Woo",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "J S WOO",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "J S WOO",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/J-S-WOO-1b6afaf7b684802c8996f157f78b5bf8",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8046-9f9b-cbbce426caeb",
-            "created_time": "2025-03-14T15:47:00.000Z",
-            "last_edited_time": "2025-08-05T05:40:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "🇰🇷 Korea",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "🇰🇷 Korea",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "7",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "7",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "3",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "3",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "쏘니",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "쏘니",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "FC Bullsala",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "FC Bullsala",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80de-91aa-c44175e32385"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "1979",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "1979",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Dugwon",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Dugwon",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b7afaf7-b684-80ae-9309-c06bb2615b6a"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8073-9b7e-ece299f18c70"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e2-a732-f9d0d8d3e256"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-80e4-9687-d89455272429"
-                        },
-                        {
-                            "id": "1b7afaf7-b684-8097-acc9-de91defe8f77"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://www.tottenhamhotspur.com/media/ds3asinl/firstteam_profiles_heungminson_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                                "link": {
-                                    "url": "https://www.tottenhamhotspur.com/media/ds3asinl/firstteam_profiles_heungminson_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://www.tottenhamhotspur.com/media/ds3asinl/firstteam_profiles_heungminson_202425_1.png?anchor=center&mode=crop&quality=90&width=500",
-                            "href": "https://www.tottenhamhotspur.com/media/ds3asinl/firstteam_profiles_heungminson_202425_1.png?anchor=center&mode=crop&quality=90&width=500"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "160cm",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "160cm",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Seo",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Seo",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "DUGWON",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "DUGWON",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/DUGWON-1b6afaf7b68480469f9bcbbce426caeb",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8078-8c47-f0ab2fe7b993",
-            "created_time": "2025-03-14T02:21:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "ad3c1c41-7577-40cd-9d86-4808c8835756",
-                        "name": "Inactive",
-                        "color": "default"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Test",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Test",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Test-1b6afaf7b68480788c47f0ab2fe7b993",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1b6afaf7-b684-8057-a849-cbc6be48e2fb",
-            "created_time": "2025-03-14T02:20:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "ad3c1c41-7577-40cd-9d86-4808c8835756",
-                        "name": "Inactive",
-                        "color": "default"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Test",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Test",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Test-1b6afaf7b6848057a849cbc6be48e2fb",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-80fd-a685-f062bb273e78",
-            "created_time": "2025-02-27T23:34:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Jaewon",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Jaewon",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "LN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "LN",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "JW",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "JW",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/JW-1a7afaf7b68480fda685f062bb273e78",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-8071-89a8-cc16ccb1e7a6",
-            "created_time": "2025-02-27T23:34:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Hoon",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Hoon",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629638.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629638.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629638.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629638.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "LN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "LN",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Hoon",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Hoon",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Hoon-1a7afaf7b684807189a8cc16ccb1e7a6",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-80ed-b377-d36d644ee556",
-            "created_time": "2025-02-27T23:34:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "0",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "0",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8063-b24f-fb29983943ae"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Guard",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Guard",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Dongmyung",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Dongmyung",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641725.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641725.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641725.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641725.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "LN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "LN",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Paul",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Paul",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Paul-1a7afaf7b68480edb377d36d644ee556",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-8049-946d-d8cb9c56cc0f",
-            "created_time": "2025-02-27T23:33:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "0",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "0",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8063-b24f-fb29983943ae"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Guard",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Guard",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Jinyoung",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Jinyoung",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Lee",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Lee",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Jay",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Jay",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Jay-1a7afaf7b6848049946dd8cb9c56cc0f",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-80aa-997b-e7c0dd464743",
-            "created_time": "2025-02-27T23:33:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "2",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "2",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80b6-91c9-eead526b903b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Center",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Center",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "FN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "FN",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Bin",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Bin",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Bin",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Bin",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Bin-1a7afaf7b68480aa997be7c0dd464743",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-8014-b117-cf477af14b21",
-            "created_time": "2025-02-27T23:33:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "2",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "2",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80b6-91c9-eead526b903b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Center",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Center",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Euseok",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Euseok",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Oh",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Oh",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Oh",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Oh",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Oh-1a7afaf7b6848014b117cf477af14b21",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-808d-80b3-e9b409ff8423",
-            "created_time": "2025-02-27T23:33:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "2",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "2",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80b6-91c9-eead526b903b"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Center",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Center",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "FN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "FN",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "LN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "LN",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Rob",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Rob",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Rob-1a7afaf7b684808d80b3e9b409ff8423",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-8040-aaf3-fdbecff6720a",
-            "created_time": "2025-02-27T23:28:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "0",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "0",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8063-b24f-fb29983943ae"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Guard",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Guard",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "FN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "FN",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "LN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "LN",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "DO",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "DO",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/DO-1a7afaf7b6848040aaf3fdbecff6720a",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-804c-b83c-c07c979db94b",
-            "created_time": "2025-02-27T23:27:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "0",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "0",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8063-b24f-fb29983943ae"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Guard",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Guard",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "FN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "FN",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "LN",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "LN",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Ko",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Ko",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/Ko-1a7afaf7b684804cb83cc07c979db94b",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1a7afaf7-b684-8006-a094-fc151cf5407c",
-            "created_time": "2025-02-27T23:25:00.000Z",
-            "last_edited_time": "2025-08-05T05:41:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-8080-98c8-c527d723323b"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "nationality": {
-                    "id": "%3CiZU",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "back_number": {
-                    "id": "%3DWM%3D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "0",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "0",
-                            "href": null
-                        }
-                    ]
-                },
-                "password": {
-                    "id": "FjVb",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "email": {
-                    "id": "MC%5Db",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "order": {
-                    "id": "VPGL",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "rich_text",
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "1",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "1",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "nickname": {
-                    "id": "XaV%60",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Rollup": {
-                    "id": "YFzl",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "KNYC",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "KNYC",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "position": {
-                    "id": "%5BpSt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "position_rollup": {
-                    "id": "%5DYCo",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "title",
-                                "title": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": "Forward",
-                                            "link": null
-                                        },
-                                        "annotations": {
-                                            "bold": false,
-                                            "italic": false,
-                                            "strikethrough": false,
-                                            "underline": false,
-                                            "code": false,
-                                            "color": "default"
-                                        },
-                                        "plain_text": "Forward",
-                                        "href": null
-                                    }
-                                ]
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "birthday": {
-                    "id": "%60dY%5D",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "tags": {
-                    "id": "bp~R",
-                    "type": "multi_select",
-                    "multi_select": []
-                },
-                "first_name": {
-                    "id": "mUz~",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Dongbin",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Dongbin",
-                            "href": null
-                        }
-                    ]
-                },
-                "games": {
-                    "id": "oXNs",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "profile_picture": {
-                    "id": "qV%3AS",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png",
-                                "link": {
-                                    "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png"
-                                }
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png",
-                            "href": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642530.png"
-                        }
-                    ]
-                },
-                "height": {
-                    "id": "va%7B%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "-",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "-",
-                            "href": null
-                        }
-                    ]
-                },
-                "Status": {
-                    "id": "xWCN",
-                    "type": "select",
-                    "select": {
-                        "id": "afe5b192-ac82-4a6a-9b20-30b500475642",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "last_name": {
-                    "id": "yvmM",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Kim",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Kim",
-                            "href": null
-                        }
-                    ]
-                },
-                "Teams": {
-                    "id": "%7Dzrt",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1a7afaf7-b684-81c4-9433-fa7540029605"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "DBK",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "DBK",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/DBK-1a7afaf7b6848006a094fc151cf5407c",
-            "public_url": null
         }
     ],
     "next_cursor": null,
@@ -29451,5 +18892,5 @@ export const dataPlayers = {
     "type": "page_or_database",
     "page_or_database": {},
     "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
-    "request_id": "ff6032f8-7334-40b9-8b39-4090a7db88cf"
+    "request_id": "59d0cfe7-5d1e-4263-84e0-d2777ad2a284"
 }

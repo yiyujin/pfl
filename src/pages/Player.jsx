@@ -11,6 +11,7 @@ import { ArrowForward, EventAvailable, Stadium, Scoreboard } from '@mui/icons-ma
 import { dataPlayers } from "../data/dataPlayers";
 import { dataTeams } from "../data/dataTeams";
 import { dataStats } from "../data/dataStats";
+import { dataGames } from "../data/dataGames";
 
 export default function Player(){
     const { id } = useParams(); // player_id
@@ -25,7 +26,7 @@ export default function Player(){
     const teamName = team[0].properties.Name.title[0].plain_text;
 
     const statsArr = dataStats.results.filter( (item) => (item.properties.player.relation[0].id) === id );
-    
+    console.log(statsArr);
     const stats = {
         "GP" : String(statsArr[0].properties.GP.rich_text[0].plain_text),
         "MIN" : String(statsArr[0].properties.MIN.rich_text[0].plain_text),
@@ -40,6 +41,11 @@ export default function Player(){
         "FTA" : String(statsArr[0].properties.FTA.number),
         "FTP" : String(statsArr[0].properties.FTP.formula.number),
     }
+
+
+    // test : 5zCAljRV7Ls, 87vjbQzQyXU
+    const games = dataGames.results.filter( ( item ) => item.properties.players.relation.some( ( rel ) => rel.id === id ) );
+    const youtubeIds = games.map( ( item ) => item.properties.youtube_id.rich_text[0]?.plain_text );
 
     const statsContainerRef = useRef(null);
     const spanRefs = useRef([]);
@@ -241,10 +247,10 @@ export default function Player(){
                 </div>
             </div>
             
-            {/* VIDEOS */}
-
-            {/* pass game in parameter */}
-            <YoutubePlayer/>
+            {/* VIDEOS */}            
+            { youtubeIds.map( ( item,index ) =>
+                <YoutubePlayer key = { index } playerId = { id } videoId = { item } />
+            )}
 
         </div>
     )

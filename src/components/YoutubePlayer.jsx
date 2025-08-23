@@ -1,10 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { data } from '../mockdata.js';
 import { ArrowBack, ArrowForward, PlayArrow, Pause } from '@mui/icons-material';
-
-const game = {
-
-}
+import { dataGames } from "../data/dataGames.js";
 
 const typeOrder = [
   "3pt M",
@@ -53,7 +50,7 @@ const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
         playerRef.current = null;
       }
 
-      playerRef.current = new window.YT.Player('main-youtube-player', {
+      playerRef.current = new window.YT.Player(`youtube-player-${videoId}`, {
         width: '100%',
         height: '100%',
         videoId,
@@ -91,7 +88,7 @@ const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
   return (
     <div style = { { position: 'relative', paddingTop: '56.25%', width: '100%' } }>
       <div
-        id = "main-youtube-player"
+        id={`youtube-player-${videoId}`}
         style={{
           position: 'absolute',
           top: 0,
@@ -104,8 +101,11 @@ const YouTubePlayer = ({ videoId, onPlayerReady, onStateChange }) => {
   );
 };
 
-export default function YoutubePlayer() {
-  const [videoId, setVideoId] = useState('5zCAljRV7Ls');
+export default function YoutubePlayer( { playerId, videoId } ) {
+  // FETCH videoID
+  const fetchedGames = dataGames.results;
+
+  // const [videoId, setVideoId] = useState(videoId);
   const [player, setPlayer] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isReady, setIsReady] = useState(false);
@@ -280,32 +280,30 @@ const handleHighlightClick = (index) => {
 
                 <YouTubePlayer videoId={videoId} onPlayerReady={onPlayerReady} onStateChange={onStateChange} />
               </div>
-
-            {/* Controls */}
-            <div className = "control-buttons" style = { { width : "100%", display : "flex", flexDirection : "row", marginTop : "1px" } }>
-                <button onClick={handlePrevious} disabled={!isReady}><ArrowBack/></button>
-
-                {!isPlaying ? (
-                    <button onClick={handlePlay} disabled={!isReady}><PlayArrow/></button>
-                ) : (
-                    <button onClick={handlePause}><Pause/></button>
-                )}
-
-                <button onClick={handleNext} disabled={!isReady}><ArrowForward/></button>
-            </div>
-
-                {/* PROGRESS BAR */}
-                
-
-                <div style = { { width: "100%", background: "rgba(255, 255, 255, 0.04)", height: "4px" }}>
-                    <div style = { { background: "rgba(255, 255, 255, 0.4)", height: "100%", width: `${Math.min(progressPercentage, 100)}%`, transition: "width 0.1s linear" }}/>
-                </div>
-                <p className = "meta">playing {currentHighlightIndex + 1}/{highlightsData.length}.. ({formatTime(clipProgress)} / {formatTime(clipDuration)})</p>
-
-
-              
-            </div>
+          </div>
         </div>
+
+        {/* Controls */}
+        <div className = "control-buttons" style = { { width : "100%", display : "flex", flexDirection : "row", marginTop : "1px" } }>
+            <button onClick={handlePrevious} disabled={!isReady}><ArrowBack/></button>
+
+            {!isPlaying ? (
+                <button onClick={handlePlay} disabled={!isReady}><PlayArrow/></button>
+            ) : (
+                <button onClick={handlePause}><Pause/></button>
+            )}
+
+            <button onClick={handleNext} disabled={!isReady}><ArrowForward/></button>
+        </div>
+
+        {/* PROGRESS BAR */}
+        
+
+        <div style = { { width: "100%", background: "rgba(255, 255, 255, 0.04)", height: "4px" }}>
+            <div style = { { background: "rgba(255, 255, 255, 0.4)", height: "100%", width: `${Math.min(progressPercentage, 100)}%`, transition: "width 0.1s linear" }}/>
+        </div>
+        <p className = "meta">playing {currentHighlightIndex + 1}/{highlightsData.length}.. ({formatTime(clipProgress)} / {formatTime(clipDuration)})</p>
+
 
         {/* Highlights List */}
         <br/>
@@ -335,7 +333,7 @@ const handleHighlightClick = (index) => {
                 </button>
             ))}
         </div>
-
+    
         </div>
     </div>
   );
