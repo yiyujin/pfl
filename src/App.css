@@ -44,7 +44,7 @@ html, body {
   pointer-events: none;   /* Allow clicks to pass through */
   z-index: -1;            /* Push behind content */
 
-  filter : blur(4px);
+  /* filter : blur(4px); */
 }
 
 .content {
@@ -273,4 +273,15 @@ button {
   /* width : 120px !important; */
 
   border-radius : 2px;
+}
+
+/* View Highlights Button */
+.btn-default {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-red {
+  background-color: white;
+  color: black;
 }
