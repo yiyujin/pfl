@@ -5,15 +5,18 @@ import './App.css'
 import Home from './pages/Home'
 import Player from './pages/Player'
 import YouTubeClipsApp from './pages/YouTubeClipsApp';
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div>
+    <div style = { { width : "100vw", height : "100vh" } }>
       <Routes> 
         <Route path = "/" element = { <Home/>}/>
         <Route path="/player/:id" element={<Player />} />
         <Route path = "/test" element = { <YouTubeClipsApp/>}/>
       </Routes>
+
+      <Footer/>
     </div>
   )
 }

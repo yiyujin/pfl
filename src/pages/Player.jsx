@@ -151,7 +151,7 @@ export default function Player(){
 
     return(
         <div className = "page">
-            <div style = { { } }>
+            <div>
                 <h1>{ backNumber } · { playerName }</h1>
                 <p className = "meta">Team : { teamName }</p>
             </div>
@@ -161,9 +161,10 @@ export default function Player(){
             {/* STATS */}
             <hr/>
             <p className = "meta">SEASON STATS</p>
+
             <br/>
             
-            <div className = "season-stats" ref={statsContainerRef} style = { { width : "100%", overflowX : "scroll", display : "flex", flexDirection : "row", gap : "40px" } }>
+            <div className = "season-stats" ref = { statsContainerRef } style = { { width : "100%", overflowX : "scroll", display : "flex", flexDirection : "row", gap : "40px" } }>
                 
                 {/* NUMBER STATS */}
                 <div style = { {  display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center", gap : "8px" } }>
@@ -294,7 +295,8 @@ export default function Player(){
                     </div>
                 ))
             ) : (
-                <div>No games found for this player.</div>
+                // EMPTY STATE
+                <div style = { { height : "100vh" } }>I'm sorry, no games recorded for the player.</div>
             )}
 
         </div>

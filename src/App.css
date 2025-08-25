@@ -65,10 +65,13 @@ html, body {
 }
 
 .footer {
-  position : absolute;
+  position : fixed;
+  bottom : 0;
 
-  width : 95%;
-  bottom : 8px;
+  backdrop-filter: blur(10px);  
+
+  width : 100%;
+  padding : 4px 16px;
 
   display: flex;
   flex-direction: row;
@@ -89,6 +92,8 @@ html, body {
 .footerImg {
   /* width : 24px; */
   height : 32px;
+
+  padding-right : 40px;
 }
 
 .number {
@@ -187,12 +192,12 @@ html, body {
 } */
 
 .page {
-  width : 100vw;
-  height : 100%;
+  /* width : 100vw; */
+  /* height : 100%; */
 
   background: #1b1b1b;
   /* background : lime; */
-  background : black;
+  /* background : black; */
 
   /* color : lime; */
   color : white;

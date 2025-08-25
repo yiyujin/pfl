@@ -2,6 +2,7 @@ import { useState } from "react";
 import { data, Link } from "react-router-dom";
 import RandomText from "../components/RandomText";
 import { dataPlayers } from "../data/dataPlayers";
+import Footer from "../components/Footer";
 
 const players = dataPlayers.results;
 
@@ -79,17 +80,7 @@ export default function Home() {
             <h3>Pts</h3>
           </div>
         </div>
-
-        {/* FOOTER */}
-        <div className="footer">
-          <img src="/teamstamps_logo.png" className="footerImg" />
-          <p>Play Forever League</p>
-          <p>Jun - Aug 2025 / Boston, MA</p>
-          <img
-            src="https://nevertoolate.com/wp-content/uploads/2014/03/NTLlogo-1.png"
-            className="footerImg"
-          />
-        </div>
+        
       </div>
     </div>
   );
