@@ -151,12 +151,12 @@ export default function Player(){
 
     return(
         <div className = "page">
-            <div>
+            <div className = "player-header">
                 <h1>{ backNumber } · { playerName }</h1>
                 <p className = "meta">Team : { teamName }</p>
             </div>
 
-            <br/>
+            <br/><br/><br/><br/><br/>
 
             {/* STATS */}
             <hr/>

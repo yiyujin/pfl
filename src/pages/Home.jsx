@@ -30,9 +30,12 @@ export default function Home() {
 
   return (
     <div className="bg-video-wrap">
-      <video autoPlay muted loop className="bg-video">
-        <source src="/test.mov" />
-      </video>
+      <iframe
+        className="bg-video"
+        src="https://www.youtube.com/embed/oCTuRQQKV2Y?autoplay=1&mute=1&loop=1&playlist=oCTuRQQKV2Y&controls=0&modestbranding=1&showinfo=0"
+        allow="autoplay; fullscreen"
+        allowFullScreen
+      ></iframe>
 
       <div className="content">
         <div className="title-container">
@@ -45,42 +48,45 @@ export default function Home() {
           />
           <p>Enter your full name to view your highlights</p>
 
-          <Link
-            to={playerId ? `/player/${playerId}` : "#"}
-            className={`btn ${isMatch ? "btn-red" : "btn-default"}`}
-            onClick={(e) => {
-              if (!playerId) {
-                e.preventDefault(); // prevent navigation if no match
-                alert("Player not found!");
-              }
-            }}
-          >
-            View Highlights
+           {isMatch && playerId ? (
+              <Link to={`/player/${playerId}`} className="btn btn-red">
+                View Highlights
+              </Link>
+            ) : (
+              <button className="btn btn-default" disabled>
+                View Highlights
+              </button>
+            )}
+        </div>
+
+        <div style={ { position : "absolute", bottom : "8%", display : "flex", flexDirection : "column", alignItems : "center", gap : "40px", } }>
+          <div className="stats-container">
+            <div className="stats">
+              <RandomText txt="6" fontSize="56" />
+              <h3>Teams</h3>
+            </div>
+
+            <div className="stats">
+              <RandomText txt="53" fontSize="56" />
+              <h3>Players</h3>
+            </div>
+
+            <div className="stats">
+              <RandomText txt="24" fontSize="56" />
+              <h3>Games</h3>
+            </div>
+
+            <div className="stats">
+              <RandomText txt="2347" fontSize="56" />
+              <h3>Pts</h3>
+            </div>
+          </div>
+
+          <Link to={`/gallery`}>
+            View Photos
           </Link>
         </div>
-
-        <div className="stats-container">
-          <div className="stats">
-            <RandomText txt="6" fontSize="56" />
-            <h3>Teams</h3>
-          </div>
-
-          <div className="stats">
-            <RandomText txt="53" fontSize="56" />
-            <h3>Players</h3>
-          </div>
-
-          <div className="stats">
-            <RandomText txt="24" fontSize="56" />
-            <h3>Games</h3>
-          </div>
-
-          <div className="stats">
-            <RandomText txt="2347" fontSize="56" />
-            <h3>Pts</h3>
-          </div>
-        </div>
-        
+      
       </div>
     </div>
   );

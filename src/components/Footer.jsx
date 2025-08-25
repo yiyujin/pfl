@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom"
+
 export default function Footer(){
     return(
          <div className = "footer">
-            <img src="/teamstamps_logo.png" className="footerImg" />
+            <Link to = "/">
+                <img src="/teamstamps_logo.png" className="footerImg" />
+            </Link>
             <p>Play Forever League</p>
             <p>Jun - Aug 2025 / Boston, MA</p>
             <img

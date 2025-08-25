@@ -2,8 +2,9 @@ import { Routes, Route, useLocation } from "react-router"
 import './App.css'
 
 // PAGES
-import Home from './pages/Home'
-import Player from './pages/Player'
+import Home from './pages/Home';
+import Player from './pages/Player';
+import Gallery from "./pages/Gallery";
 import YouTubeClipsApp from './pages/YouTubeClipsApp';
 import Footer from "./components/Footer";
 
@@ -13,6 +14,8 @@ export default function App() {
       <Routes> 
         <Route path = "/" element = { <Home/>}/>
         <Route path="/player/:id" element={<Player />} />
+        <Route path = "/gallery" element = { <Gallery/>}/>
+        
         <Route path = "/test" element = { <YouTubeClipsApp/>}/>
       </Routes>
 
