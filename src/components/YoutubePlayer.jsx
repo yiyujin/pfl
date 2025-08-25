@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { data } from '../mockdata.js';
 import { ArrowBack, ArrowForward, PlayArrow, Pause, EventAvailable, Stadium, Scoreboard } from '@mui/icons-material';
 import { dataHighlights } from '../data/dataHighlights.js';
 
@@ -321,26 +320,6 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
     <div style = { { paddingBottom : "80px", borderBottom : "1px solid rgba(255, 255, 255, 0.16)" } }>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <h1>Game</h1>
-        {/* GAME INFO */}
-        <div style={{ display: "flex", flexDirection: "row", gap: "16px", alignItems : "center" }}>
-          <p>SCP vs EL</p>
-          <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
-              <Scoreboard style={{ fontSize: "14px", color: "white" }} />
-              <p className="meta">57 : 61</p>
-          </div>
-
-          <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
-              <EventAvailable style={{ fontSize: "14px", color: "white" }} />
-              <p className="meta">Aug 20, 2025</p>
-          </div>
-
-          <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
-              <Stadium style={{ fontSize: "14px", color: "white" }} />
-              <p className = "meta">Healy School</p>
-          </div>
-        </div>
-
         {/* Main Video */}
         <div className="lg:col-span-2">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">

@@ -59,19 +59,13 @@ export default function Player(){
                 return item.properties.players.relation.some((rel) => rel.id === id);
             });
             
-            console.log("Filtered games:", filteredGames);
-            
             // Additional filtering to ensure we have valid youtube_id
             const validGames = filteredGames.filter(game => 
                 game.properties.youtube_id?.rich_text?.[0]?.plain_text
             );
-            
+
+            console.log("validGames : ", validGames);
             setGames(validGames);
-            
-            // Log the first game's youtube_id if it exists
-            if (validGames.length > 0) {
-                console.log("First game youtube_id:", validGames[0].properties.youtube_id.rich_text[0].plain_text);
-            }
         } catch (error) {
             console.error("Error filtering games:", error);
             setGames([]);
@@ -268,14 +262,36 @@ export default function Player(){
             <br/><br/>
             
             {/* VIDEOS */}         
-            {games.length > 0 ? (
-                games.map((item, index) => (
-                    <YoutubePlayer 
-                        key={index} 
-                        playerId={id} 
-                        videoId={item.properties.youtube_id.rich_text[0]?.plain_text} 
-                        gameId={item.id}
-                    />
+            { games.length > 0 ? (
+                games.map( ( item, index ) => (
+                    <div key = { index }>
+                        <h1>Game</h1>
+                
+                        {/* GAME INFO */}
+                        <div style = { { display: "flex", flexDirection: "row", gap: "16px", alignItems : "center" } }>
+                            <p>{ item.properties.Name.title[0].plain_text }</p>
+                            <div style={{ display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" }}>
+                                <Scoreboard style = { { fontSize: "14px", color: "white" } } />
+                                <p className="meta">{ item.properties.score.rich_text[0].plain_text }</p>
+                            </div>
+                
+                            <div style = { { display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" } }>
+                                <EventAvailable style = { { fontSize: "14px", color: "white" } }/>
+                                <p className="meta">{ item.properties.Date.date.start }</p>
+                            </div>
+                
+                            <div style = { { display: "flex", flexDirection: "row", gap: "4px", alignItems: "center" } }>
+                                <Stadium style = { { fontSize: "14px", color: "white" } } />
+                                <p className = "meta">{ item.properties.venue.rich_text[0].plain_text }</p>
+                            </div>
+                        </div>
+
+                        <YoutubePlayer 
+                            playerId = { id } 
+                            videoId = { item.properties.youtube_id.rich_text[0]?.plain_text } 
+                            gameId = { item.id }
+                        />
+                    </div>
                 ))
             ) : (
                 <div>No games found for this player.</div>
