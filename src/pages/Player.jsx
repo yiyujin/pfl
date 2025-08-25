@@ -169,7 +169,7 @@ export default function Player(){
             <p className = "meta">SEASON STATS</p>
             <br/>
             
-            <div ref={statsContainerRef} style = { { width : "100%", overflowX : "scroll", display : "flex", flexDirection : "row", gap : "40px" } }>
+            <div className = "season-stats" ref={statsContainerRef} style = { { width : "100%", overflowX : "scroll", display : "flex", flexDirection : "row", gap : "40px" } }>
                 
                 {/* NUMBER STATS */}
                 <div style = { {  display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center", gap : "8px" } }>

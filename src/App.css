@@ -191,6 +191,8 @@ html, body {
   height : 100%;
 
   background: #1b1b1b;
+  /* background : lime; */
+  background : black;
 
   /* color : lime; */
   color : white;
@@ -269,12 +271,6 @@ button {
   border : 1px solid #1b1b1b;
 }
 
-.button-highlight{
-  /* width : 120px !important; */
-
-  border-radius : 2px;
-}
-
 /* View Highlights Button */
 .btn-default {
   background-color: rgba(255, 255, 255, 0.16);
@@ -288,4 +284,8 @@ button {
 
 #main-youtube-player {
   /* filter : blur(4px); */
+}
+
+.season-stats::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }

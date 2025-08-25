@@ -9,7 +9,8 @@ const typeOrder = [
   "1pt M",
   "3pt A",
   "2pt A",
-  "1pt A"
+  "1pt A",
+  "Highlight"
 ];
 
 // YouTube API manager to handle multiple players
@@ -160,11 +161,26 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
   const clipDuration = 8;
 
   // DATA
-  const initialHighlightsData = dataHighlights.results.filter((item) => item.properties.player_id.rich_text[0].plain_text === playerId && item.properties.game_id.rich_text[0].plain_text === gameId ).sort((a, b) => {
-    const indexA = typeOrder.indexOf(a.type);
-    const indexB = typeOrder.indexOf(b.type);
+  // const initialHighlightsData = dataHighlights.filter( ( item ) => item.properties.player_id.rich_text[0].plain_text === playerId && item.properties.game_id.rich_text[0].plain_text === gameId ).sort( ( a, b ) => {
+  //   const indexA = typeOrder.indexOf(a.type);
+  //   const indexB = typeOrder.indexOf(b.type);
+  //   return indexA - indexB;
+  // });
+
+  const initialHighlightsData = dataHighlights
+  .filter((item) => 
+    item.properties.player_id.rich_text[0]?.plain_text === playerId &&
+    item.properties.game_id.rich_text[0]?.plain_text === gameId
+  )
+  .sort((a, b) => {
+    const indexA = typeOrder.indexOf(a.properties.type.rich_text[0].plain_text);
+    const indexB = typeOrder.indexOf(b.properties.type.rich_text[0].plain_text);
+
     return indexA - indexB;
   });
+
+
+  console.log(initialHighlightsData);
 
   const [highlightsData, setHighlightsData] = useState(initialHighlightsData);
 
@@ -180,8 +196,8 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
       currentHighlightIndexRef.current = 0;
     } else if (value === "TYPE") {
       const sorted = [...highlightsData].sort((a, b) => {
-        const indexA = typeOrder.indexOf(a.type);
-        const indexB = typeOrder.indexOf(b.type);
+        const indexA = typeOrder.indexOf(a.properties.type.rich_text[0].plain_text);
+        const indexB = typeOrder.indexOf(b.properties.type.rich_text[0].plain_text);
         return indexA - indexB;
       });
       setHighlightsData(sorted);
@@ -375,15 +391,14 @@ export default function YoutubePlayer({ playerId, videoId, gameId }) {
           </select>
         </div>
 
-        <div style={{ width: "100%", height: "100px", overflowX: "scroll", display: "flex", flexDirection: "row", gap: "4px" }}>
+      <div style={{ width: "100%", height: "100px", overflowX: "scroll", display: "flex", flexDirection: "row", gap: "4px" }}>
           { highlightsData.map( ( highlight, index ) => (
             <button
               key={index}
               onClick={() => handleHighlightClick(index)}
-              style={{ width: "100px", opacity: index === currentHighlightIndex ? 1 : 0.5 }}
-              className="button-highlight"
+              style={{ width: "120px", borderRadius : "2px", opacity: index === currentHighlightIndex ? 1 : 0.5 }}
             >
-              <div>
+              <div style = { { width : "100%", display : "flex", flexDirection : "column", alignItems : "center" }}>
                 <h3>{ highlight.properties.type.rich_text[0].plain_text }</h3>
                 <p className="meta">{ highlight.properties.time.rich_text[0].plain_text }</p>
               </div>
