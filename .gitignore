@@ -25,4 +25,6 @@ dist-ssr
 
 # 
 /public/*
-/src/data/*
+/src/data/
+/src/data/dataHighlights.js
+/src/data/dataPlayers.js
