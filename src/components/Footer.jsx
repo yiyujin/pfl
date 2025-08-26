@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 
+// haha
+
 export default function Footer(){
     return(
          <div className = "footer">
