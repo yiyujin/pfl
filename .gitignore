@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # 
-/public/*
+# /public/*
 # /src/data/
 # /src/data/dataHighlights.js
 # /src/data/dataPlayers.js
