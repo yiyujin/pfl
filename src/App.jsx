@@ -7,6 +7,7 @@ import Player from './pages/Player';
 import Gallery from "./pages/Gallery";
 import YouTubeClipsApp from './pages/YouTubeClipsApp';
 import Footer from "./components/Footer";
+import Players from "./pages/Players";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path = "/" element = { <Home/>}/>
         <Route path="/player/:id" element={<Player />} />
         <Route path = "/gallery" element = { <Gallery/>}/>
+        <Route path = "/players" element = { <Players/>}/>
         
         <Route path = "/test" element = { <YouTubeClipsApp/>}/>
       </Routes>

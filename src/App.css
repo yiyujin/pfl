@@ -58,6 +58,7 @@ html, body {
 
 .player-header {
   position: fixed;
+
   width: 100%;
   background: rgba(27, 27, 27, 0.75);
   z-index: 99;
@@ -210,6 +211,13 @@ html, body {
 h1 {
   font-family: "Barlow Condensed";
   font-weight: 800;
+  font-size : 8rem;
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-family: "Barlow Condensed";
+  font-weight: 800;
   font-size : 6rem;
   text-transform: uppercase;
 }
@@ -319,4 +327,32 @@ button:disabled {
 .gallery>img {
   width : 100%;
   height : auto;
+}
+
+.playername-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+
+  padding : 16px 0px;
+}
+
+.playername-list > div {
+  flex: 0 0 auto; /* don’t shrink */
+  display: flex;
+  flex-direction: row;
+
+  /* border : 1px solid red; */
+  height : 7.5rem;
+
+  align-items: center;
+}
+
+.playername-list > .second-child {
+  padding-left: 24px; /* default */
+}
+
+.playername-list > .second-child.wrapped {
+  padding-left: 8rem;
 }

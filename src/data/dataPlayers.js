@@ -7,7 +7,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-8009-9d92-e6d65445a602",
             "created_time": "2025-08-23T06:01:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -68,7 +68,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -112,7 +135,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -120,7 +147,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -137,12 +187,34 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Jimmy",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Jimmy",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -167,7 +239,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Wyman",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Wyman",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -228,7 +318,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-809c-926f-d5d098b8026f",
             "created_time": "2025-08-23T06:01:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -289,7 +379,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -333,7 +446,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -341,7 +458,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -358,12 +498,34 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Mike",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Mike",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -388,7 +550,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Rambo",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Rambo",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -449,7 +629,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-8027-8f0e-de166ed4b315",
             "created_time": "2025-08-23T06:00:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -510,7 +690,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -554,7 +757,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -562,7 +769,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -579,12 +809,34 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Steve",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Steve",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -609,7 +861,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "DuPuis",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "DuPuis",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -670,7 +940,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-80b9-a309-f29a0fdb926d",
             "created_time": "2025-08-23T06:00:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -731,7 +1001,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -775,7 +1068,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -783,7 +1080,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -800,12 +1120,34 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Kayron",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Kayron",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -830,7 +1172,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Wright",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Wright",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -891,7 +1251,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-80f4-8a3b-c021149c9f9b",
             "created_time": "2025-08-23T06:00:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -952,7 +1312,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -996,7 +1379,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -1004,7 +1391,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1021,12 +1431,34 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Eric",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Eric",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -1051,7 +1483,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Jones",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Jones",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -1112,7 +1562,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-80ff-a226-ddf782b8ada2",
             "created_time": "2025-08-23T06:00:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -1173,7 +1623,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1217,7 +1690,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -1225,7 +1702,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1242,7 +1742,25 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Evan",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Evan",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
@@ -1272,7 +1790,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "McDaniel",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "McDaniel",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -1333,7 +1869,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-805c-8e69-e37faf1cb0f3",
             "created_time": "2025-08-23T06:00:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -1394,7 +1930,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1438,7 +1997,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -1446,7 +2009,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1463,12 +2049,34 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Nick",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Nick",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -1493,7 +2101,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Barash",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Barash",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -1554,7 +2180,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-8081-826e-e12c7245e306",
             "created_time": "2025-08-23T06:00:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -1615,7 +2241,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1659,7 +2308,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -1667,7 +2320,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1684,7 +2360,25 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Christian",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Christian",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
@@ -1714,7 +2408,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Champney",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Champney",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -1775,7 +2487,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-8055-b2a9-ed2ca28be17c",
             "created_time": "2025-08-23T06:00:00.000Z",
-            "last_edited_time": "2025-08-23T06:01:00.000Z",
+            "last_edited_time": "2025-08-25T03:54:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -1836,7 +2548,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1880,7 +2615,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -1888,7 +2627,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -1928,7 +2690,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -2032,7 +2798,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-80ad-9f88-e84ffabb89f3",
             "created_time": "2025-08-23T05:41:00.000Z",
-            "last_edited_time": "2025-08-23T06:14:00.000Z",
+            "last_edited_time": "2025-08-25T05:41:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -2053,12 +2819,48 @@ export const dataPlayers = {
                 "nationality": {
                     "id": "%3CiZU",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "-",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "-",
+                            "href": null
+                        }
+                    ]
                 },
                 "back_number": {
                     "id": "%3DWM%3D",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "36",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "36",
+                            "href": null
+                        }
+                    ]
                 },
                 "password": {
                     "id": "FjVb",
@@ -2075,14 +2877,55 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "rich_text",
+                                "rich_text": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "1",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
                 "nickname": {
                     "id": "XaV%60",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "-",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "-",
+                            "href": null
+                        }
+                    ]
                 },
                 "Rollup": {
                     "id": "YFzl",
@@ -2119,7 +2962,11 @@ export const dataPlayers = {
                 "position": {
                     "id": "%5BpSt",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "1b6afaf7-b684-80f3-acb0-f7a23eaac818"
+                        }
+                    ],
                     "has_more": false
                 },
                 "position_rollup": {
@@ -2127,7 +2974,30 @@ export const dataPlayers = {
                     "type": "rollup",
                     "rollup": {
                         "type": "array",
-                        "array": [],
+                        "array": [
+                            {
+                                "type": "title",
+                                "title": [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Forward",
+                                            "link": null
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        },
+                                        "plain_text": "Forward",
+                                        "href": null
+                                    }
+                                ]
+                            }
+                        ],
                         "function": "show_original"
                     }
                 },
@@ -2144,12 +3014,37 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Jake",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Jake",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -2160,7 +3055,25 @@ export const dataPlayers = {
                 "height": {
                     "id": "va%7B%5C",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "-",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "-",
+                            "href": null
+                        }
+                    ]
                 },
                 "Status": {
                     "id": "xWCN",
@@ -2174,7 +3087,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "McMahon",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "McMahon",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -2235,7 +3166,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "258afaf7-b684-8052-8ae9-f6572d26f68b",
             "created_time": "2025-08-23T05:02:00.000Z",
-            "last_edited_time": "2025-08-23T06:14:00.000Z",
+            "last_edited_time": "2025-08-25T05:43:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -2365,12 +3296,34 @@ export const dataPlayers = {
                 "first_name": {
                     "id": "mUz~",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Mehmet",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Mehmet",
+                            "href": null
+                        }
+                    ]
                 },
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -2395,7 +3348,25 @@ export const dataPlayers = {
                 "last_name": {
                     "id": "yvmM",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Saltik",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Saltik",
+                            "href": null
+                        }
+                    ]
                 },
                 "Teams": {
                     "id": "%7Dzrt",
@@ -2456,7 +3427,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "24aafaf7-b684-8003-9898-e8a947d0d123",
             "created_time": "2025-08-09T03:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:46:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -2695,7 +3666,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -2817,7 +3795,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "24aafaf7-b684-8041-b4fe-c2647335a91a",
             "created_time": "2025-08-09T03:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:46:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -3056,7 +4034,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -3539,7 +4524,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "24aafaf7-b684-806a-b381-d421933df8cf",
             "created_time": "2025-08-09T03:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:46:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -3778,7 +4763,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -3900,7 +4892,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "24aafaf7-b684-807b-bbf5-f7e08a4c2ae5",
             "created_time": "2025-08-09T03:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:46:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -4139,7 +5131,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -4261,7 +5260,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "24aafaf7-b684-8024-a325-ec2bdf84ded1",
             "created_time": "2025-08-09T03:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:46:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -4500,7 +5499,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -4622,7 +5628,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "24aafaf7-b684-80f7-bdb0-cb78270ea753",
             "created_time": "2025-08-09T03:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:46:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -4670,7 +5676,7 @@ export const dataPlayers = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "11",
+                                "content": "16",
                                 "link": null
                             },
                             "annotations": {
@@ -4681,7 +5687,7 @@ export const dataPlayers = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "11",
+                            "plain_text": "16",
                             "href": null
                         }
                     ]
@@ -4861,7 +5867,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -4983,7 +5996,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "24aafaf7-b684-807e-bac8-f2fee71ad56d",
             "created_time": "2025-08-09T03:52:00.000Z",
-            "last_edited_time": "2025-08-23T03:46:00.000Z",
+            "last_edited_time": "2025-08-25T05:37:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -5222,7 +6235,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -5344,7 +6361,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-8081-8427-ffc93458761e",
             "created_time": "2025-08-05T05:38:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -5587,7 +6604,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -5709,7 +6730,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-80ff-baff-d8794604da6f",
             "created_time": "2025-08-05T05:38:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -5952,7 +6973,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -6074,7 +7099,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-8068-8433-d958301c90bc",
             "created_time": "2025-08-05T05:38:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -6317,7 +7342,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -6439,7 +7468,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-8020-9cc7-d3934df644da",
             "created_time": "2025-08-05T05:38:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -6682,7 +7711,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -7169,7 +8202,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-80b0-9066-eb39b5555029",
             "created_time": "2025-08-05T05:38:00.000Z",
-            "last_edited_time": "2025-08-23T03:44:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -7412,7 +8445,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -7534,7 +8571,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-80b8-9887-eef398bcbd73",
             "created_time": "2025-08-05T05:38:00.000Z",
-            "last_edited_time": "2025-08-23T03:44:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -7777,7 +8814,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -7899,7 +8940,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-80c0-95c4-fc878f9375cd",
             "created_time": "2025-08-05T05:38:00.000Z",
-            "last_edited_time": "2025-08-23T03:44:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -8142,7 +9183,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -8264,7 +9309,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "246afaf7-b684-809e-b1e4-d97a1511a74b",
             "created_time": "2025-08-05T05:37:00.000Z",
-            "last_edited_time": "2025-08-23T03:44:00.000Z",
+            "last_edited_time": "2025-08-25T05:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -11420,7 +12465,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-8018-9a62-e46c5a34baf1",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -11713,7 +12758,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        },
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -12250,7 +13302,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-808b-87e1-d6ef8118301a",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:39:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -12543,7 +13595,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -12665,7 +13724,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-8073-9df8-dc3cd8ca83bd",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -12958,7 +14017,17 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        },
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -13080,7 +14149,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-80aa-b669-dd0ca8a79804",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -13373,7 +14442,17 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        },
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -13495,7 +14574,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-8027-893d-e0a95c0e2e9a",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -13788,7 +14867,17 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        },
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -13910,7 +14999,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-8022-9013-e22372ffa836",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:38:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -14203,7 +15292,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -14325,7 +15421,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-80e5-837f-ead4b85351b0",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:40:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -14618,7 +15714,17 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        },
+                        {
+                            "id": "259afaf7-b684-806a-9505-ec51d113826d"
+                        },
+                        {
+                            "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -14740,7 +15846,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "23fafaf7-b684-809c-8dd1-f2081b69b271",
             "created_time": "2025-07-29T19:46:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:38:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -15033,7 +16139,11 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "259afaf7-b684-8072-915d-e1e3acc145d6"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -15155,7 +16265,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "234afaf7-b684-80ca-b647-e5bfedf68f34",
             "created_time": "2025-07-18T05:29:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:48:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -15448,7 +16558,23 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d"
+                        },
+                        {
+                            "id": "234afaf7-b684-8077-84ea-d0622c9e108b"
+                        },
+                        {
+                            "id": "234afaf7-b684-8005-ad4b-e0635136b181"
+                        },
+                        {
+                            "id": "234afaf7-b684-80ec-be7a-c5022ac606b0"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -15863,7 +16989,23 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d"
+                        },
+                        {
+                            "id": "234afaf7-b684-8077-84ea-d0622c9e108b"
+                        },
+                        {
+                            "id": "234afaf7-b684-80ec-be7a-c5022ac606b0"
+                        },
+                        {
+                            "id": "234afaf7-b684-8005-ad4b-e0635136b181"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -15985,7 +17127,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "232afaf7-b684-806a-8fce-fac22a684103",
             "created_time": "2025-07-16T01:55:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:49:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -16278,7 +17420,17 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d"
+                        },
+                        {
+                            "id": "234afaf7-b684-8005-ad4b-e0635136b181"
+                        },
+                        {
+                            "id": "234afaf7-b684-80ec-be7a-c5022ac606b0"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -16400,7 +17552,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "232afaf7-b684-805d-8181-c072dd3264a9",
             "created_time": "2025-07-16T01:54:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:48:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -16693,7 +17845,23 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d"
+                        },
+                        {
+                            "id": "234afaf7-b684-8077-84ea-d0622c9e108b"
+                        },
+                        {
+                            "id": "234afaf7-b684-8005-ad4b-e0635136b181"
+                        },
+                        {
+                            "id": "234afaf7-b684-80ec-be7a-c5022ac606b0"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -16815,7 +17983,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "232afaf7-b684-80de-99ba-d980d6a3794f",
             "created_time": "2025-07-16T01:54:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:47:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -17108,7 +18276,20 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d"
+                        },
+                        {
+                            "id": "234afaf7-b684-8005-ad4b-e0635136b181"
+                        },
+                        {
+                            "id": "234afaf7-b684-80ec-be7a-c5022ac606b0"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -17230,7 +18411,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "232afaf7-b684-802f-ada6-fee53da6e572",
             "created_time": "2025-07-16T01:54:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:50:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -17523,7 +18704,17 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-8077-84ea-d0622c9e108b"
+                        },
+                        {
+                            "id": "234afaf7-b684-80ec-be7a-c5022ac606b0"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -17645,7 +18836,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "232afaf7-b684-80d7-8a85-fdb4f36ed877",
             "created_time": "2025-07-16T01:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:50:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -17938,7 +19129,20 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d"
+                        },
+                        {
+                            "id": "234afaf7-b684-8077-84ea-d0622c9e108b"
+                        },
+                        {
+                            "id": "234afaf7-b684-8005-ad4b-e0635136b181"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -18060,7 +19264,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "232afaf7-b684-8060-ba14-d85569e1b6d8",
             "created_time": "2025-07-16T01:53:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:47:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -18353,7 +19557,14 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-8077-84ea-d0622c9e108b"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -18475,7 +19686,7 @@ export const dataPlayers = {
             "object": "page",
             "id": "232afaf7-b684-80c1-bdff-cf3813eed778",
             "created_time": "2025-07-16T01:52:00.000Z",
-            "last_edited_time": "2025-08-23T03:45:00.000Z",
+            "last_edited_time": "2025-08-25T05:47:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -18768,7 +19979,23 @@ export const dataPlayers = {
                 "games": {
                     "id": "oXNs",
                     "type": "relation",
-                    "relation": [],
+                    "relation": [
+                        {
+                            "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d"
+                        },
+                        {
+                            "id": "234afaf7-b684-8077-84ea-d0622c9e108b"
+                        },
+                        {
+                            "id": "234afaf7-b684-8005-ad4b-e0635136b181"
+                        },
+                        {
+                            "id": "234afaf7-b684-80ec-be7a-c5022ac606b0"
+                        },
+                        {
+                            "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba"
+                        }
+                    ],
                     "has_more": false
                 },
                 "profile_picture": {
@@ -18892,5 +20119,5 @@ export const dataPlayers = {
     "type": "page_or_database",
     "page_or_database": {},
     "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
-    "request_id": "59d0cfe7-5d1e-4263-84e0-d2777ad2a284"
+    "request_id": "54d4eb76-5b5d-4ad9-ba4e-3f59fd102ee8"
 }

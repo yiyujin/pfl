@@ -2,7 +2,6 @@ import { useState } from "react";
 import { data, Link } from "react-router-dom";
 import RandomText from "../components/RandomText";
 import { dataPlayers } from "../data/dataPlayers";
-import Footer from "../components/Footer";
 
 const players = dataPlayers.results;
 
@@ -50,11 +49,11 @@ export default function Home() {
 
            {isMatch && playerId ? (
               <Link to={`/player/${playerId}`} className="btn btn-red">
-                View Highlights
+                View My Highlights
               </Link>
             ) : (
               <button className="btn btn-default" disabled>
-                View Highlights
+                View My Highlights
               </button>
             )}
         </div>
@@ -82,9 +81,16 @@ export default function Home() {
             </div>
           </div>
 
-          <Link to={`/gallery`}>
-            View Photos
-          </Link>
+
+          <div style = { { display : "flex", flexDirection : "row", gap : "40px" } }>
+            <Link to={`/players`}>
+              View Players
+            </Link>
+            <Link to={`/gallery`}>
+              View Photos
+            </Link>
+          </div>
+          
         </div>
       
       </div>
