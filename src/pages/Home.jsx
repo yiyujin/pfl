@@ -56,31 +56,6 @@ export default function Home() {
                 View My Highlights
               </button>
             )}
-        </div>
-
-        <div style={ { position : "absolute", bottom : "8%", display : "flex", flexDirection : "column", alignItems : "center", gap : "40px", } }>
-          <div className="stats-container">
-            <div className="stats">
-              <RandomText txt="6" fontSize="56" />
-              <h3>Teams</h3>
-            </div>
-
-            <div className="stats">
-              <RandomText txt="53" fontSize="56" />
-              <h3>Players</h3>
-            </div>
-
-            <div className="stats">
-              <RandomText txt="24" fontSize="56" />
-              <h3>Games</h3>
-            </div>
-
-            <div className="stats">
-              <RandomText txt="2347" fontSize="56" />
-              <h3>Pts</h3>
-            </div>
-          </div>
-
 
           <div style = { { display : "flex", flexDirection : "row", gap : "40px" } }>
             <Link to={`/players`}>
@@ -89,6 +64,31 @@ export default function Home() {
             <Link to={`/gallery`}>
               View Photos
             </Link>
+          </div>
+
+        </div>
+
+        <div style={ { position : "absolute", bottom : "8%", display : "flex", flexDirection : "column", alignItems : "center", gap : "40px", } }>
+          <div className="stats-container">
+            <div className="stats">
+              <RandomText txt="6" fontSize="48" />
+              <h3>Teams</h3>
+            </div>
+
+            <div className="stats">
+              <RandomText txt="53" fontSize="48" />
+              <h3>Players</h3>
+            </div>
+
+            <div className="stats">
+              <RandomText txt="24" fontSize="48" />
+              <h3>Games</h3>
+            </div>
+
+            <div className="stats">
+              <RandomText txt="2347" fontSize="48" />
+              <h3>Pts</h3>
+            </div>
           </div>
           
         </div>
