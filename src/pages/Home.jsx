@@ -37,7 +37,7 @@ export default function Home() {
       ></iframe>
 
       <div className="content">
-        <div className="title-container">
+        <div className = "title-container">
           <input
             type="text"
             className="title"
