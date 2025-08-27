@@ -68,7 +68,7 @@ export default function Home() {
 
         </div>
 
-        <div style={ { position : "absolute", bottom : "8%", display : "flex", flexDirection : "column", alignItems : "center", gap : "40px", } }>
+        <div style={ { position : "absolute", bottom : "16%", display : "flex", flexDirection : "column", alignItems : "center", gap : "40px", } }>
           <div className="stats-container">
             <div className="stats">
               <RandomText txt="6" fontSize="48" />
