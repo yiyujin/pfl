@@ -164,11 +164,11 @@ export default function Player(){
 
             <br/>
             
-            <div className = "season-stats" ref = { statsContainerRef } style = { { width : "100%", overflowX : "scroll", display : "flex", flexDirection : "row", gap : "40px" } }>
+            <div className = "season-stats" ref = { statsContainerRef } style = { { width : "100%", overflowX : "scroll", display : "flex", flexDirection : "row" } }>
                 
                 {/* NUMBER STATS */}
                 <div style = { {  display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center", gap : "8px" } }>
-                    <div style = { { border : "1px solid transparent", width : "160px", height : "180px", display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center" } }>
+                    <div style = { { border : "1px solid transparent", width : "120px", height : "180px", display : "flex", flexDirection : "column", alignItems : "center", justifyContent : "center" } }>
                         <RandomText txt = { stats.GP } fontSize = "100"/>
                     </div>
                     <p className = "meta">Games Played</p>
@@ -190,7 +190,7 @@ export default function Player(){
 
                 
                 {/* PERCENTAGE STATS */}
-                <div style = { { display : "flex", flexDirection : "column", alignItems : "center", width : "100%", gap : "8px" } }>
+                <div style = { { paddingRight : "40px", display : "flex", flexDirection : "column", alignItems : "center", width : "100%", gap : "8px" } }>
                     <div style={{ display: "flex", flexDirection: "row", width: "320px", height: "180px", background: "", border: "1px solid white" }}>
                         <div style={{ background: "", display: "flex", flexDirection: "column", flex: 1, borderRight: "1px solid white" }}>
                             <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", borderBottom: "1px solid white" }}>{ stats.FG }</h3>
@@ -212,7 +212,7 @@ export default function Player(){
                     <p className = "meta">FG / FGA = FG%</p>
                 </div>
 
-                <div style = { { display : "flex", flexDirection : "column", alignItems : "center", width : "100%", gap : "8px" } }>
+                <div style = { { paddingRight : "40px", display : "flex", flexDirection : "column", alignItems : "center", width : "100%", gap : "8px" } }>
                     <div style={{ display: "flex", flexDirection: "row", width: "320px", height: "180px", background: "", border: "1px solid white" }}>
                         <div style={{ background: "", display: "flex", flexDirection: "column", flex: 1, borderRight: "1px solid white" }}>
                             <h3 className = "stats-number" style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", borderBottom: "1px solid white" }}>{ stats["3FG"] }</h3>
