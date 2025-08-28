@@ -730,7 +730,7 @@ export const dataGames = {
             "object": "page",
             "id": "246afaf7-b684-8018-bc8d-e81b3dd151bb",
             "created_time": "2025-08-05T05:42:00.000Z",
-            "last_edited_time": "2025-08-24T20:05:00.000Z",
+            "last_edited_time": "2025-08-28T19:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -1063,7 +1063,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-08-24T20:05:00.000Z"
+                    "last_edited_time": "2025-08-28T19:42:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -1072,7 +1072,7 @@ export const dataGames = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "Clark Cougars vs Coast Guard Bears",
+                                "content": "CC vsCGB",
                                 "link": null
                             },
                             "annotations": {
@@ -1083,20 +1083,20 @@ export const dataGames = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "Clark Cougars vs Coast Guard Bears",
+                            "plain_text": "CC vsCGB",
                             "href": null
                         }
                     ]
                 }
             },
-            "url": "https://www.notion.so/Clark-Cougars-vs-Coast-Guard-Bears-246afaf7b6848018bc8de81b3dd151bb",
+            "url": "https://www.notion.so/CC-vsCGB-246afaf7b6848018bc8de81b3dd151bb",
             "public_url": null
         },
         {
             "object": "page",
             "id": "23fafaf7-b684-80b0-8c5e-c9fa24cbee63",
             "created_time": "2025-07-29T19:47:00.000Z",
-            "last_edited_time": "2025-08-25T06:17:00.000Z",
+            "last_edited_time": "2025-08-28T19:46:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -1313,27 +1313,6 @@ export const dataGames = {
                         },
                         {
                             "id": "23fafaf7-b684-808b-87e1-d6ef8118301a"
-                        },
-                        {
-                            "id": "258afaf7-b684-8055-b2a9-ed2ca28be17c"
-                        },
-                        {
-                            "id": "258afaf7-b684-80f4-8a3b-c021149c9f9b"
-                        },
-                        {
-                            "id": "258afaf7-b684-80b9-a309-f29a0fdb926d"
-                        },
-                        {
-                            "id": "258afaf7-b684-809c-926f-d5d098b8026f"
-                        },
-                        {
-                            "id": "258afaf7-b684-8009-9d92-e6d65445a602"
-                        },
-                        {
-                            "id": "258afaf7-b684-805c-8e69-e37faf1cb0f3"
-                        },
-                        {
-                            "id": "258afaf7-b684-8027-8f0e-de166ed4b315"
                         }
                     ],
                     "has_more": false
@@ -1430,7 +1409,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-08-25T06:17:00.000Z"
+                    "last_edited_time": "2025-08-28T19:46:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -1439,7 +1418,7 @@ export const dataGames = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "Salve Regina Seahawks vs MIT Engineers",
+                                "content": "SRS vs MIT",
                                 "link": null
                             },
                             "annotations": {
@@ -1450,20 +1429,20 @@ export const dataGames = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "Salve Regina Seahawks vs MIT Engineers",
+                            "plain_text": "SRS vs MIT",
                             "href": null
                         }
                     ]
                 }
             },
-            "url": "https://www.notion.so/Salve-Regina-Seahawks-vs-MIT-Engineers-23fafaf7b68480b08c5ec9fa24cbee63",
+            "url": "https://www.notion.so/SRS-vs-MIT-23fafaf7b68480b08c5ec9fa24cbee63",
             "public_url": null
         },
         {
             "object": "page",
             "id": "234afaf7-b684-808e-a2f2-e8c63d5bbb5d",
             "created_time": "2025-07-18T06:48:00.000Z",
-            "last_edited_time": "2025-08-25T20:48:00.000Z",
+            "last_edited_time": "2025-08-28T19:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -1758,7 +1737,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-08-25T20:48:00.000Z"
+                    "last_edited_time": "2025-08-28T19:42:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -1767,7 +1746,7 @@ export const dataGames = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "[Game 8] Smith College Pioneers vs CC",
+                                "content": "[Game 8] SCP vs CC",
                                 "link": null
                             },
                             "annotations": {
@@ -1778,20 +1757,20 @@ export const dataGames = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "[Game 8] Smith College Pioneers vs CC",
+                            "plain_text": "[Game 8] SCP vs CC",
                             "href": null
                         }
                     ]
                 }
             },
-            "url": "https://www.notion.so/Game-8-Smith-College-Pioneers-vs-CC-234afaf7b684808ea2f2e8c63d5bbb5d",
+            "url": "https://www.notion.so/Game-8-SCP-vs-CC-234afaf7b684808ea2f2e8c63d5bbb5d",
             "public_url": null
         },
         {
             "object": "page",
             "id": "234afaf7-b684-8077-84ea-d0622c9e108b",
             "created_time": "2025-07-18T06:48:00.000Z",
-            "last_edited_time": "2025-08-25T20:48:00.000Z",
+            "last_edited_time": "2025-08-28T19:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -2086,7 +2065,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-08-25T20:48:00.000Z"
+                    "last_edited_time": "2025-08-28T19:42:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -2095,7 +2074,7 @@ export const dataGames = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "[Game 7] Smith College Pioneers vs EL",
+                                "content": "[Game 7] SCP vs EL",
                                 "link": null
                             },
                             "annotations": {
@@ -2106,20 +2085,20 @@ export const dataGames = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "[Game 7] Smith College Pioneers vs EL",
+                            "plain_text": "[Game 7] SCP vs EL",
                             "href": null
                         }
                     ]
                 }
             },
-            "url": "https://www.notion.so/Game-7-Smith-College-Pioneers-vs-EL-234afaf7b684807784ead0622c9e108b",
+            "url": "https://www.notion.so/Game-7-SCP-vs-EL-234afaf7b684807784ead0622c9e108b",
             "public_url": null
         },
         {
             "object": "page",
             "id": "234afaf7-b684-80ec-be7a-c5022ac606b0",
             "created_time": "2025-07-18T06:48:00.000Z",
-            "last_edited_time": "2025-08-25T20:48:00.000Z",
+            "last_edited_time": "2025-08-28T19:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -2414,7 +2393,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-08-25T20:48:00.000Z"
+                    "last_edited_time": "2025-08-28T19:42:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -2423,7 +2402,7 @@ export const dataGames = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "[Game 6] Smith College Pioneers vs MIT Engineers",
+                                "content": "[Game 6] SCP vs MIT",
                                 "link": null
                             },
                             "annotations": {
@@ -2434,13 +2413,13 @@ export const dataGames = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "[Game 6] Smith College Pioneers vs MIT Engineers",
+                            "plain_text": "[Game 6] SCP vs MIT",
                             "href": null
                         }
                     ]
                 }
             },
-            "url": "https://www.notion.so/Game-6-Smith-College-Pioneers-vs-MIT-Engineers-234afaf7b68480ecbe7ac5022ac606b0",
+            "url": "https://www.notion.so/Game-6-SCP-vs-MIT-234afaf7b68480ecbe7ac5022ac606b0",
             "public_url": null
         },
         {
@@ -2715,7 +2694,7 @@ export const dataGames = {
             "object": "page",
             "id": "234afaf7-b684-8005-ad4b-e0635136b181",
             "created_time": "2025-07-18T06:48:00.000Z",
-            "last_edited_time": "2025-08-25T20:49:00.000Z",
+            "last_edited_time": "2025-08-28T19:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -3010,7 +2989,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-08-25T20:49:00.000Z"
+                    "last_edited_time": "2025-08-28T19:42:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -3019,7 +2998,7 @@ export const dataGames = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "[Game 4] Smith College Pioneers vs Clark Cougars",
+                                "content": "[Game 4] SCP vs CC",
                                 "link": null
                             },
                             "annotations": {
@@ -3030,13 +3009,13 @@ export const dataGames = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "[Game 4] Smith College Pioneers vs Clark Cougars",
+                            "plain_text": "[Game 4] SCP vs CC",
                             "href": null
                         }
                     ]
                 }
             },
-            "url": "https://www.notion.so/Game-4-Smith-College-Pioneers-vs-Clark-Cougars-234afaf7b6848005ad4be0635136b181",
+            "url": "https://www.notion.so/Game-4-SCP-vs-CC-234afaf7b6848005ad4be0635136b181",
             "public_url": null
         },
         {
@@ -3311,7 +3290,7 @@ export const dataGames = {
             "object": "page",
             "id": "234afaf7-b684-807c-9eaa-fb8ccfe78cba",
             "created_time": "2025-07-18T05:17:00.000Z",
-            "last_edited_time": "2025-08-25T20:49:00.000Z",
+            "last_edited_time": "2025-08-28T19:42:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -3609,7 +3588,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-08-25T20:49:00.000Z"
+                    "last_edited_time": "2025-08-28T19:42:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -3618,7 +3597,7 @@ export const dataGames = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "[Game 3] Smith College Pioneers vs Emerson Lions",
+                                "content": "[Game 3] SCP vs EL",
                                 "link": null
                             },
                             "annotations": {
@@ -3629,13 +3608,13 @@ export const dataGames = {
                                 "code": false,
                                 "color": "default"
                             },
-                            "plain_text": "[Game 3] Smith College Pioneers vs Emerson Lions",
+                            "plain_text": "[Game 3] SCP vs EL",
                             "href": null
                         }
                     ]
                 }
             },
-            "url": "https://www.notion.so/Game-3-Smith-College-Pioneers-vs-Emerson-Lions-234afaf7b684807c9eaafb8ccfe78cba",
+            "url": "https://www.notion.so/Game-3-SCP-vs-EL-234afaf7b684807c9eaafb8ccfe78cba",
             "public_url": null
         },
         {
@@ -3910,7 +3889,7 @@ export const dataGames = {
             "object": "page",
             "id": "1e2afaf7-b684-80ec-a58d-c9360e6daa74",
             "created_time": "2025-04-27T04:14:00.000Z",
-            "last_edited_time": "2025-04-27T04:14:00.000Z",
+            "last_edited_time": "2025-08-25T23:52:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -4095,12 +4074,34 @@ export const dataGames = {
                 "result": {
                     "id": "rfNQ",
                     "type": "select",
-                    "select": null
+                    "select": {
+                        "id": "3b8aa732-6936-4808-859a-3e9cdcb81b48",
+                        "name": "win",
+                        "color": "green"
+                    }
                 },
                 "score": {
                     "id": "zUz%60",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "2 : 0",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "2 : 0",
+                            "href": null
+                        }
+                    ]
                 },
                 "Date": {
                     "id": "%7Bq%5D%7C",
@@ -4119,7 +4120,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-04-27T04:14:00.000Z"
+                    "last_edited_time": "2025-08-25T23:52:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -4152,7 +4153,7 @@ export const dataGames = {
             "object": "page",
             "id": "1e2afaf7-b684-80ad-9f24-c43f27f8583a",
             "created_time": "2025-04-27T04:14:00.000Z",
-            "last_edited_time": "2025-04-27T04:14:00.000Z",
+            "last_edited_time": "2025-08-25T23:52:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -4337,12 +4338,34 @@ export const dataGames = {
                 "result": {
                     "id": "rfNQ",
                     "type": "select",
-                    "select": null
+                    "select": {
+                        "id": "8c6e09ea-6030-409b-b921-8f255b38b2b5",
+                        "name": "lose",
+                        "color": "default"
+                    }
                 },
                 "score": {
                     "id": "zUz%60",
                     "type": "rich_text",
-                    "rich_text": []
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "0 : 0",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "0 : 0",
+                            "href": null
+                        }
+                    ]
                 },
                 "Date": {
                     "id": "%7Bq%5D%7C",
@@ -4361,7 +4384,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-04-27T04:14:00.000Z"
+                    "last_edited_time": "2025-08-25T23:52:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -4388,248 +4411,6 @@ export const dataGames = {
                 }
             },
             "url": "https://www.notion.so/FC-Bullsala-vs-NY-Dadizus-1e2afaf7b68480ad9f24c43f27f8583a",
-            "public_url": null
-        },
-        {
-            "object": "page",
-            "id": "1c9afaf7-b684-8063-8044-d1adc3321f99",
-            "created_time": "2025-04-02T01:45:00.000Z",
-            "last_edited_time": "2025-04-27T04:04:00.000Z",
-            "created_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "last_edited_by": {
-                "object": "user",
-                "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
-            },
-            "cover": null,
-            "icon": null,
-            "parent": {
-                "type": "database_id",
-                "database_id": "1a7afaf7-b684-807a-aa2e-d13b2fb5225f"
-            },
-            "archived": false,
-            "in_trash": false,
-            "properties": {
-                "log--": {
-                    "id": "%3ADli",
-                    "type": "files",
-                    "files": []
-                },
-                "team1": {
-                    "id": "DnE_",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "FC Bullsala",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "FC Bullsala",
-                            "href": null
-                        }
-                    ]
-                },
-                "team2": {
-                    "id": "EOS%5C",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "NY Dadizus",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "NY Dadizus",
-                            "href": null
-                        }
-                    ]
-                },
-                "videos": {
-                    "id": "FxHh",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "url": {
-                    "id": "GR%5B%3E",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "comments": {
-                    "id": "KR%3Dp",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "status": {
-                    "id": "MzL%3C",
-                    "type": "select",
-                    "select": {
-                        "id": "f83cfe61-9fce-49ea-8ba9-98aa9ed89454",
-                        "name": "Active",
-                        "color": "green"
-                    }
-                },
-                "highlights": {
-                    "id": "Nng%3A",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "type": {
-                    "id": "Xtfi",
-                    "type": "select",
-                    "select": {
-                        "id": "96d86cc8-8cde-4ad2-821f-a26f8cf24471",
-                        "name": "match",
-                        "color": "purple"
-                    }
-                },
-                "teamB_id": {
-                    "id": "YrsT",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "log": {
-                    "id": "%5D%3A%5Cq",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "League": {
-                    "id": "b%3CiA",
-                    "type": "rollup",
-                    "rollup": {
-                        "type": "array",
-                        "array": [
-                            {
-                                "type": "select",
-                                "select": null
-                            }
-                        ],
-                        "function": "show_original"
-                    }
-                },
-                "Created": {
-                    "id": "fzb_",
-                    "type": "created_time",
-                    "created_time": "2025-04-02T01:45:00.000Z"
-                },
-                "venue": {
-                    "id": "gmBH",
-                    "type": "rich_text",
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "Harry Della Russo Stadium, Boston",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "Harry Della Russo Stadium, Boston",
-                            "href": null
-                        }
-                    ]
-                },
-                "team": {
-                    "id": "iHJN",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "1b6afaf7-b684-8054-bab0-f0f01a50144c"
-                        }
-                    ],
-                    "has_more": false
-                },
-                "players": {
-                    "id": "k%5Dp_",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
-                },
-                "youtube_id": {
-                    "id": "qXZA",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "result": {
-                    "id": "rfNQ",
-                    "type": "select",
-                    "select": null
-                },
-                "score": {
-                    "id": "zUz%60",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "Date": {
-                    "id": "%7Bq%5D%7C",
-                    "type": "date",
-                    "date": {
-                        "start": "2025-05-31",
-                        "end": null,
-                        "time_zone": null
-                    }
-                },
-                "youtube_link": {
-                    "id": "%7CEQm",
-                    "type": "rich_text",
-                    "rich_text": []
-                },
-                "Edited": {
-                    "id": "%7DIiE",
-                    "type": "last_edited_time",
-                    "last_edited_time": "2025-04-27T04:04:00.000Z"
-                },
-                "Name": {
-                    "id": "title",
-                    "type": "title",
-                    "title": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "FC Bullsala vs NY Dadizus",
-                                "link": null
-                            },
-                            "annotations": {
-                                "bold": false,
-                                "italic": false,
-                                "strikethrough": false,
-                                "underline": false,
-                                "code": false,
-                                "color": "default"
-                            },
-                            "plain_text": "FC Bullsala vs NY Dadizus",
-                            "href": null
-                        }
-                    ]
-                }
-            },
-            "url": "https://www.notion.so/FC-Bullsala-vs-NY-Dadizus-1c9afaf7b68480638044d1adc3321f99",
             "public_url": null
         },
         {
@@ -5800,7 +5581,7 @@ export const dataGames = {
             "object": "page",
             "id": "1b7afaf7-b684-8097-acc9-de91defe8f77",
             "created_time": "2025-03-15T23:02:00.000Z",
-            "last_edited_time": "2025-04-27T04:04:00.000Z",
+            "last_edited_time": "2025-08-25T23:52:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "836e8cd8-71d9-41ce-8bf2-ddde446207f4"
@@ -6071,7 +5852,11 @@ export const dataGames = {
                 "result": {
                     "id": "rfNQ",
                     "type": "select",
-                    "select": null
+                    "select": {
+                        "id": "8c6e09ea-6030-409b-b921-8f255b38b2b5",
+                        "name": "lose",
+                        "color": "default"
+                    }
                 },
                 "score": {
                     "id": "zUz%60",
@@ -6113,7 +5898,7 @@ export const dataGames = {
                 "Edited": {
                     "id": "%7DIiE",
                     "type": "last_edited_time",
-                    "last_edited_time": "2025-04-27T04:04:00.000Z"
+                    "last_edited_time": "2025-08-25T23:52:00.000Z"
                 },
                 "Name": {
                     "id": "title",
@@ -6752,8 +6537,8 @@ export const dataGames = {
                             "name": "game.json",
                             "type": "file",
                             "file": {
-                                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/e03c720f-f008-4075-a4d9-2cd311c55b1d/58ae7063-4f66-4e63-90fb-650b3faa64f1/game.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VFXZSYJJ%2F20250825%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250825T205153Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA0aCXVzLXdlc3QtMiJGMEQCICCxI2L5EeSsXvQEvVzCiquhN6NQJBf9LRLaaAxXiCZuAiBqV8GoHQjl3%2FPS%2BQJPBitFQo0A3vsYpp2AsYBYGK6bFir%2FAwhmEAAaDDYzNzQyMzE4MzgwNSIMSFaaMDMmgGGKC8SlKtwDcYHm8FL28OozyETzHcybKsbbRQrQ7V0P66rcV%2BoCdIBq3Yuq5KkSm6KLAItLxKvqg1WuXQ4TrTIno4AOsWiueVmgWb3sjCFSC4BV06wB8Uve5RqB7bgiENo8NVga75741vmU1YJ8kD%2B4%2BafeGe2%2BkFY7DzV80Vu%2ByllofDhs%2B4DMi8qYOqfsZkJxfaLOQeOA6Gb%2BNd0l4yxZCPL8o2PCMKeykB2CgXECofc52p8Io1e3PePGir8ELDnRms1hCxcKkqhSXlXegLO8P2%2BQWnXy0OIhjcGZaD%2BAFyFhlk1SAIeUbBq9tbKHieXqbO0tnphwoPlzTxQ%2BZqFNP7V%2BQnAKSNAttxbVn8De5ivVOTmqpp%2BUQIdSITI4VkmOohnns31pZtSW7oP%2F%2FhGl72yNY1DJnE9q0ZyY%2B3evvwVOWXmLbeB%2BGJsYwp5TElSazSt6wlDYH8MhduEf8id8ZvKYsQq5L9pcCPcJYKxpKcuIRakq9UZsXNDEcUebunHdJILwG7obrYMEpozlSPzpKkhX028FMZz7GKRRrCMyZ7AVrLHRFWmAP5KRS9go4o82ca%2F9gpq06Uf8H9zeT5n3lzfiWcAtp%2FQS6BSEui2%2BQlfEfm4fdND2irBvnua%2BDXJjs8Ew%2BpCzxQY6pgFegtAl0EqGl%2F9vuTkRi%2FYm6vEI2J98TQ3DfkyCXJTqiMSE3O%2Bi54E%2B%2BSUGTFN90dcR7sZ2c1QhDNFnBevKI3mjp5wQbQWM7hn6qmdE9u%2BwxNu6TiF4HZeMxtxJ7iaTY3nKb02BhO7zQNfAbkKwXQDcmIx74NvJNp1OAWTMe0THj3ovN8VnCRP0iHAacPRlf7ukhkJeSpSv6ZfJWxP44OmLB6OcWfOd&X-Amz-Signature=870dcca7d1dac62747ac41861ac308b989ebb8f83c6dc2e636d8cb964ee35828&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                                "expiry_time": "2025-08-25T21:51:53.941Z"
+                                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/e03c720f-f008-4075-a4d9-2cd311c55b1d/58ae7063-4f66-4e63-90fb-650b3faa64f1/game.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVENLN4G%2F20250828%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250828T194908Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFMaCXVzLXdlc3QtMiJHMEUCIBBBkPjVRSW1AxXt53cOY7o%2F2BlUZXN25NUqXPR8ZrOyAiEAvM84DD7Au2ixSkLdD33hC0JZQCLvFYXRVzRsCB%2FLJS0qiAQIrP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAcWWuVB6Yov4tH81ircA1LMcpBsgp5aDVky%2B3L0eY%2BFA59bGWgokbwgDiuS2M9aP9VTTD9gPMx9Jq%2Bod7ckYiSbNQH4l7IdNWNStsVSrLBkgi8IX4oKf8EoRHudYTHiwbFfhH9674CBz0%2FSb2czFR5pgrj%2F33ubCRgEgbPHi4sme6Z8rf1gFGQEpPFSi0UcL%2B16KvoHd5qSTvUEpW2i7o4rMSAK0%2BqHdw2XP35GV%2FTr0k4h1rlcjW3ddfETHSfL%2BR8Dae286XEXMOJ8BAFHoYegVxkoOdPuIbin9hkPCy6cIBVunjtPXCf19micmEbUWWbwJdfcnW7M%2F6NUZIc6SVs6nuuUApQCFQ4vS3AwIYw5F3FGC1qRpbCPEBcExVkNUA6Xfwetl0aBL44qbPXYYyPG%2BTSpkZtrr%2Fk0aRD2gkMAgQarPBDh8BlkDEdxXoQdE2RnIHpztP13DcrWs2DUfkovN5H2td%2FqZqtyAgYSk4FbwcWYD2LqhGYq7VucqRhZ3%2B2ls3%2FouAOn2J2xcKBgb4zuS3dgC3E%2Bme7qD2i1XCgwSo2wfs0VjKph7A%2FdhUH6bJ1Gz8Q48KRWjdcNWimNAubGs7ImH97jEj4%2BgWhl8XvfTfEeY1Xa8DT4jWjpLZGz1NBHxbijNyBo8ZhGMOvNwsUGOqUB4qZRpckPb0Z9h12B8qD7%2FVM6oa86XTPwRtqrgJOtAYePvQvmRc7U22DZ95cXIin4UvD6bd9gLm9u%2FPXfXeSDqLlTFrUF00Y%2BF0VtPXB%2Baqeo3tH0z2or7aaWTLWrLh8mFe7MFCXpmvSS%2BDcIRnPQA2eG%2Fqbkb0nC%2BqhLyIkhis2MYRSK9sRMuq3v3p4ZHBfslmwa6oGBV%2FNRylUWovpmWi5tqZsN&X-Amz-Signature=41d42bce7e06b067c9ab83e307d943a4ce12523cfc050fa6b54896c4c33f7f85&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                                "expiry_time": "2025-08-28T20:49:08.729Z"
                             }
                         }
                     ]
@@ -7049,5 +6834,5 @@ export const dataGames = {
     "type": "page_or_database",
     "page_or_database": {},
     "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
-    "request_id": "b0a56863-d76c-405d-a1f7-371f010f5e44"
+    "request_id": "4d54f638-c920-4aba-9013-32237b790174"
 }
