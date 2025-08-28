@@ -152,7 +152,7 @@ export default function Player(){
     return(
         <div className = "page">
             <div className = "player-header">
-                <h1 style = { {lineHeight : "7.5rem" }}>{ backNumber } · { playerName }</h1>
+                <h1 style = { { lineHeight : "var(--font-size-large)" } }>{ backNumber } · { playerName }</h1>
                 <p className = "meta">Team : { teamName }</p>
             </div>
 

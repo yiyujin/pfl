@@ -78,45 +78,45 @@ export default function Players() {
       <h1>All Players</h1>
       <br /><br /><br />
 
-      {Object.entries(groupedByTeam).map(([teamId, group]) => (
-        <div key={teamId} style={{ paddingBottom: "80px" }}>
-          <h3>{group.teamName}</h3>
+      { Object.entries(groupedByTeam).map( ( [teamId, group] ) => (
+        <div key = { teamId } style = { { paddingBottom: "80px" } }>
+          <h3>{ group.teamName }</h3>
 
-          {group.players.map((player, i) => {
+          { group.players.map((player, i) => {
             const playerId = player.id;
             const playerHighlights = groupedByPlayer[playerId] || [];
 
             return (
               <Link key = { i } to = {`/player/${playerId}`}>
-              <div className = "playername-list">
-                <div style={{ gap: "0" }}>
-                  <h1 style={{ width : "8rem", opacity: 0.08 }}>
-                    {player.properties.back_number.rich_text[0]?.plain_text}
-                  </h1>
-                  <h1>{player.properties.first_name.rich_text[0]?.plain_text}</h1>
-                </div>
+                <div className = "playername-list">
+                  <div style = { { gap: "0" }} >
+                    <h1 style={{ width : "var(--font-size-large)", opacity: 0.08 }}>
+                      {player.properties.back_number.rich_text[0]?.plain_text}
+                    </h1>
+                    <h1>{player.properties.first_name.rich_text[0]?.plain_text}</h1>
+                  </div>
 
-                <div className="second-child">
-                  <h1>{player.properties.last_name.rich_text[0]?.plain_text}</h1>
-                  {playerHighlights.length > 0 && (
-                    <div
-                      style={{
-                        background: "#ff461cff",
-                        color: "white",
-                        fontWeight: "900",
-                        borderRadius: "100",
-                        padding: "0px 16px",
-                        height: "24px",
-                        display: "flex",
-                        textAlign: "center",
-                        borderRadius : "100px",
-                      }}
-                    >
-                      <p>{playerHighlights.length}</p>
-                    </div>
-                  )}
+                  <div className="second-child">
+                    <h1>{player.properties.last_name.rich_text[0]?.plain_text}</h1>
+                    {playerHighlights.length > 0 && (
+                      <div
+                        style={{
+                          background: "#ff461cff",
+                          color: "white",
+                          fontWeight: "900",
+                          padding: "0px 16px",
+                          height: "24px",
+                          display: "flex",
+                          alignItems : "center",
+                          textAlign: "center",
+                          borderRadius : 100,
+                        }}
+                      >
+                        <p>{playerHighlights.length}</p>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
               </Link>
 
             );

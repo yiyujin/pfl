@@ -11,7 +11,7 @@
 
 :root {
   --font-size-large : 120px;
-  
+  --font-size-tiny : 16px;
   --font-size-teeny : 12px;
 
   --stats-font-size : 80;
@@ -24,8 +24,9 @@ p {
 @media (max-width: 400px) {
   :root {
     --font-size-large : 72px;
-    
+    --font-size-tiny : 8px;
     --font-size-teeny : 6px;
+
     --stats-font-size : 48;
   }
 
@@ -207,7 +208,7 @@ p {
 } */
 
 .page {
-  /* width : 100vw; */
+  width : 100vw;
   /* height : 100%; */
 
   background: #1b1b1b;
@@ -224,7 +225,9 @@ p {
 h1 {
   font-family: "Barlow Condensed";
   font-weight: 800;
-  font-size : 6rem;
+  /* font-size : 6rem; */
+  
+  font-size : var(--font-size-large);
   text-transform: uppercase;
 }
 
@@ -260,7 +263,7 @@ h3 {
 .meta {
   font-family: "IBM Plex Mono";
   text-transform: uppercase;
-  font-size : 12px;
+  font-size : var(--font-size-tiny);
 }
 
 /* HTML ELEMENTS */
@@ -337,27 +340,51 @@ button:disabled {
 .playername-list {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  border: 1px solid black;
+  gap: 8px; /* optional spacing */
 
-  padding : 16px 0px;
+  width: 100%;
+
+  box-sizing: border-box; /* important to include padding in width */
+  padding: 16px 0;
+
+  /* overflow: hidden; */
 }
 
+
 .playername-list > div {
-  flex: 0 0 auto; /* don’t shrink */
+  flex: 0 0 auto;   /* default for desktop: no shrinking */
   display: flex;
   flex-direction: row;
-
-  /* border : 1px solid red; */
-  height : 7.5rem;
+  height: var(--font-size-large);
 
   align-items: center;
+  min-width: 0;     /* always include for ellipsis to work */
+}
+
+/* Mobile / small screens */
+@media (max-width: 768px) {
+  .playername-list > div {
+    flex: 1 1 auto;   /* allow shrinking on mobile */
+  }
+
+  .playername-list > .second-child h1 {
+    max-width: 70%;  /* optional: limit last name width */
+  }
+}
+
+.playername-list > .second-child h1 {
+  white-space: nowrap;        /* prevent wrapping */
+  overflow: hidden;           /* hide overflow */
+  text-overflow: ellipsis;    /* add "..." at the end */
+  max-width: 100%;            /* prevent expanding past parent */
+  flex-shrink: 1;             /* allow shrinking inside flex */
+  min-width: 0;               /* important in flex layout */
 }
 
 .playername-list > .second-child {
-  padding-left: 24px; /* default */
+  padding-left: 16px; /* default */
 }
 
 .playername-list > .second-child.wrapped {
-  padding-left: 8rem;
+  padding-left: var(--font-size-large);
 }
