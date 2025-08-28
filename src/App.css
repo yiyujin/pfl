@@ -21,7 +21,7 @@ p {
   font-size : 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   :root {
     --font-size-large : 72px;
     --font-size-tiny : 8px;
@@ -53,8 +53,8 @@ p {
   left: 50%;                   /* center horizontally */
   transform: translateX(-50%);
 
-  height: 100vh;               /* fill viewport height */
-  width: calc(100vh * 16 / 9); /* keep 16:9 aspect ratio */
+  height: calc(100vh * 1.5);               /* fill viewport height */
+  width: calc(100vh * 1.5 * 16 / 9); /* keep 16:9 aspect ratio */
 
   border: none;                /* remove iframe border */
   pointer-events: none;        /* let clicks pass through */
