@@ -71,22 +71,22 @@ export default function Home() {
         <div style={ { position : "absolute", bottom : "16%", display : "flex", flexDirection : "column", alignItems : "center", gap : "40px", } }>
           <div className="stats-container">
             <div className="stats">
-              <RandomText txt="6" fontSize="48" />
+              <RandomText txt="6" fontSize = "var(--stats-font-size)" />
               <h3>Teams</h3>
             </div>
 
             <div className="stats">
-              <RandomText txt="53" fontSize="48" />
+              <RandomText txt="53" fontSize="var(--stats-font-size)" />
               <h3>Players</h3>
             </div>
 
             <div className="stats">
-              <RandomText txt="24" fontSize="48" />
+              <RandomText txt="24" fontSize="var(--stats-font-size)" />
               <h3>Games</h3>
             </div>
 
             <div className="stats">
-              <RandomText txt="2347" fontSize="48" />
+              <RandomText txt="2347" fontSize="var(--stats-font-size)" />
               <h3>Pts</h3>
             </div>
           </div>

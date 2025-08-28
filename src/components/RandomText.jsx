@@ -6,9 +6,21 @@ export default function RandomText({ txt, fontSize }) {
   const stripRefs = useRef([]);
 
   const sec = 10;
-
   const stripLengths = [4, 4, 4, 4];
   const staggerFrames = 0.15;
+
+  // 🔹 Convert CSS variable (e.g. "var(--stats-font-size)") into a number
+  const resolveFontSize = (fontSize) => {
+    if (typeof fontSize === "string" && fontSize.startsWith("var(")) {
+      const rootStyle = getComputedStyle(document.documentElement);
+      const cssVar = fontSize.slice(4, -1).trim(); // extract --stats-font-size
+      const value = rootStyle.getPropertyValue(cssVar).trim();
+      return parseFloat(value); // return as number
+    }
+    return parseFloat(fontSize); // if already a number or px string
+  };
+
+  const fontSizeNum = resolveFontSize(fontSize);
 
   const randomChar = () => {
     const chars = "0123456789";
@@ -30,26 +42,23 @@ export default function RandomText({ txt, fontSize }) {
     const animateStrip = (strip, i, data) => {
       gsap.fromTo(
         strip,
-        { y: -fontSize * (data[i].length - 1) },
+        { y: -fontSizeNum * (data[i].length - 1) },
         { y: 0, duration: 1, ease: "expo.out" }
       );
     };
 
     const runAnimation = () => {
-      // Generate new random characters
       stripsData.current = generateStripsData();
-      
-      // Update the DOM with new characters and animate with stagger
+
       stripRefs.current.forEach((strip, i) => {
         if (strip && stripsData.current[i]) {
-          const spans = strip.querySelectorAll('span');
+          const spans = strip.querySelectorAll("span");
           spans.forEach((span, j) => {
             if (stripsData.current[i][j] !== undefined) {
               span.textContent = stripsData.current[i][j];
             }
           });
-          
-          // Animate with stagger delay
+
           setTimeout(() => {
             animateStrip(strip, i, stripsData.current);
           }, i * staggerFrames * 1000);
@@ -57,20 +66,16 @@ export default function RandomText({ txt, fontSize }) {
       });
     };
 
-    // Initial animation
     runAnimation();
-
-    // Repeat every `sec` seconds
     const interval = setInterval(runAnimation, sec * 1000);
-
     return () => clearInterval(interval);
-  }, [txt, fontSize, sec]);
+  }, [txt, fontSizeNum, sec]);
 
   return (
     <div
       ref={containerRef}
       style={{
-        height: fontSize,
+        height: fontSizeNum,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -79,19 +84,17 @@ export default function RandomText({ txt, fontSize }) {
         overflow: "hidden",
       }}
     >
-      {/* Strips with mask containers */}
       {stripsData.current.map((chars, i) => (
         <div
           key={i}
           style={{
-            width: fontSize * 0.45 + "px",
-            height: fontSize + "px",
+            width: fontSizeNum * 0.45 + "px",
+            height: fontSizeNum + "px",
             overflow: "hidden",
             display: "flex",
             justifyContent: "center",
           }}
         >
-          {/* Animated inner strip */}
           <div
             ref={(el) => (stripRefs.current[i] = el)}
             style={{
@@ -100,13 +103,16 @@ export default function RandomText({ txt, fontSize }) {
               alignItems: "center",
               fontFamily: "Barlow Condensed",
               fontWeight: 700,
-              fontSize: fontSize + "px",
+              fontSize: fontSizeNum + "px",
               color: "white",
               lineHeight: 1,
             }}
           >
             {chars.map((c, j) => (
-              <span key={j} style={{ display: "block", height: fontSize + "px" }}>
+              <span
+                key={j}
+                style={{ display: "block", height: fontSizeNum + "px" }}
+              >
                 {c}
               </span>
             ))}
